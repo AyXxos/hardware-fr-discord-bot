@@ -1,0 +1,98 @@
+[
+  {
+    "title": "[MàJ] Vulnérabilité dans React Server Components",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-014/",
+    "description": "[Mise à jour du 11 décembre 2025] Le CERT-FR a connaissance de multiples exploitations de la vulnérabilité CVE-2025-55182. Les serveurs avec une version vulnérable exposés après la publication des preuves de concept publiques du 5 décembre 2025 doivent être considérés comme compromis....",
+    "status": "Alerte en cours",
+    "date": "11/02/2026 à 0:24",
+    "timestamp": 1770769462076
+  },
+  {
+    "title": "[MàJ] Multiples vulnérabilités dans Cisco ASA et FTD",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-013/",
+    "description": "[Mise à jour du 07 novembre 2025] Le 5 novembre 2025, Cisco a mis a jour son billet de blogue initialement publié le 25 septembre 2025 (cf. section Documentation). L'éditeur déclare avoir connaissance d'une nouvelle attaque, affectant les équipements ASA et FTD vulnérables, qui cause un déni...",
+    "status": "Clôturée le 09 décembre 2025",
+    "date": "11/02/2026 à 16:24",
+    "timestamp": 1770827062074
+  },
+  {
+    "title": "Vulnérabilité dans Citrix NetScaler ADC et NetScaler Gateway",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-012/",
+    "description": "Le 26 août 2025, Citrix a publié un bulletin de sécurité (cf. section Documentation) concernant, entre autres, la vulnérabilité CVE-2025-7775. Celle-ci permet une exécution de code arbitraire à distance et affecte toutes les versions de Citrix NetScaler ADC et NetScaler Gateway, dans certaines...",
+    "status": "Clôturée le 26 septembre 2025",
+    "date": "11/02/2026 à 16:24",
+    "timestamp": 1770827062075
+  },
+  {
+    "title": "[MàJ] Multiples vulnérabilités dans Microsoft SharePoint",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-010/",
+    "description": "[Mise à jour du 23 juillet 2025] Le 20 juillet 2025, Microsoft a publié des correctifs pour une vulnérabilité de type limitation insuffisante d'un chemin d'accès à un répertoire restreint, aussi appelé path traversal, affectant SharePoint Enterprise Server 2016, SharePoint Server 2019 et...",
+    "status": "Clôturée le 26 août 2025",
+    "date": "11/02/2026 à 16:24",
+    "timestamp": 1770827062075
+  },
+  {
+    "title": "Incidents de sécurité dans les pare-feux SonicWall",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-011/",
+    "description": "[Mise à jour du 7 août 2025] Le 6 août 2025, SonicWall a remplacé une partie de son communiqué initial pour indiquer que les incidents de sécurité évoqués étaient vraisemblablement corrélés à la vulnérabilité CVE-2024-40766. Celle-ci a fait l'objet d'un bulletin de sécurité, SNWLID-2024-0015 (cf....",
+    "status": "Clôturée le 18 août 2025",
+    "date": "11/02/2026 à 16:24",
+    "timestamp": 1770827062075
+  },
+  {
+    "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et NetScaler Gateway",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-009/",
+    "description": "[Mise à jour du 17 juillet 2025] L'éditeur a publié un lien contenant une méthode d'évaluation permettant d'identifier des tentatives d'exploitation dans les journaux applicatifs et systèmes [12]. [Mise à jour du 7 juillet 2025] Le 17 juin 2025, Citrix a publié un bulletin de sécurité...",
+    "status": "Clôturée le 18 août 2025",
+    "date": "11/02/2026 à 16:24",
+    "timestamp": 1770827062075
+  },
+  {
+    "title": "Activités de post-exploitation dans Fortinet FortiGate",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-004/",
+    "description": "Fortinet a publié le 10 avril 2025 un billet de blogue [1] indiquant l'utilisation d'une technique de post-exploitation qui permet une atteinte à la confidentialité des données de l'ensemble du système des équipements Fortigate affectés. Cette technique repose sur l'utilisation d'un lien...",
+    "status": "Clôturée le 07 août 2025",
+    "date": "11/02/2026 à 16:24",
+    "timestamp": 1770827062076
+  },
+  {
+    "title": "[MàJ] Vulnérabilité dans Roundcube",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-008/",
+    "description": "[Mise à jour du 06 juin 2025] Une preuve de concept est publiquement disponible. [Publication initiale] Le 01 juin 2025, Roundcube a publié des correctifs concernant une vulnérabilité critique affectant son portail de messagerie ainsi que tous les produits l'incluant (par exemple cPanel et...",
+    "status": "Clôturée le 21 juillet 2025",
+    "date": "11/02/2026 à 16:24",
+    "timestamp": 1770827062076
+  },
+  {
+    "title": "Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (EPMM)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-007/",
+    "description": "[Mise à jour du 15 mai 2025] Une preuve de concept est publiquement disponible sur Internet. [Publication initiale] Le 13 mai 2025, Ivanti a publié deux avis de sécurité concernant les vulnérabilités CVE-2025-4427 et CVE-2025-4428. L'utilisation combinée de ces deux vulnérabilités permet...",
+    "status": "Clôturée le 24 juin 2025",
+    "date": "11/02/2026 à 16:24",
+    "timestamp": 1770827062076
+  },
+  {
+    "title": "Vulnérabilité dans Cisco Catalyst SD-WAN",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-002/",
+    "description": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Cisco indique que la vulnérabilité CVE-2026-20127 est activement exploitée.",
+    "status": "Alerte en cours",
+    "date": "25/02/2026 à 17:24",
+    "timestamp": 1772040262405
+  },
+  {
+    "title": "[MàJ] Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-001/",
+    "description": "[Mise à jour du 09 février 2026] Le 6 février 2026, Ivanti a mis à disposition des scripts RPM de détection d'indicateurs de compromission, à utiliser en fonction de la version d'EPMM installée. L'éditeur a également mis son guide d'analyse à jour (cf. section Documentation). [Mise à jour du 02...",
+    "status": "Alerte en cours",
+    "date": "16/03/2026 à 11:14",
+    "timestamp": 1773659650215
+  },
+  {
+    "title": "Note d’alerte – Ciblage des messageries instantanées",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-003/",
+    "description": "Les travaux conjoints des services membres du Centre de Coordination des Crises Cyber (C4) ont permis d’identifier une recrudescence de campagnes d’attaques ciblant les comptes de messagerie instantanées. Ces campagnes ciblent particulièrement les secteurs régaliens (personnalités politiques,...",
+    "status": "Alerte en cours",
+    "date": "20/03/2026 à 13:14",
+    "timestamp": 1774012450367
+  }
+]

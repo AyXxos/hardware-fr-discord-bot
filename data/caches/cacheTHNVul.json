@@ -1,0 +1,810 @@
+[
+  {
+    "title": "CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk",
+    "link": "https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered  Federal Civilian Executive Branch (FCEB) agencies to strengthen asset lifecycle management for edge network devices and remove those that no longer receive security updates from original equipment manufacturers (OEMs) over the next 12 to 18 months.  The agency said the move is to drive down technical debt and minimize the risk of compromise, as state-sponsored threat actors turn such devices as a preferred access pathway for breaking into target networks.  Edge devices is an umbrella term that encompasses load balancers, firewalls, routers, switches, wireless access points, network security appliances, Internet of Things (IoT) edge devices, software-defined networks, and other physical or virtual networking components that route network traffic and hold privileged access.   \"Persistent cyber threat actors are increasingly exploiting unsupported edge devices -- hardware and software that no longer receiv...",
+    "status": "Feb 06, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832862
+  },
+  {
+    "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
+    "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
+    "description": "Artificial intelligence (AI) company Anthropic revealed  that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript , OpenSC , and CGIF .  Claude Opus 4.6, which was launched  Thursday, comes with improved coding skills, including code review and debugging capabilities, along with enhancements to tasks like financial analyses, research, and document creation.  Stating that the model is \"notably better\" at discovering high-severity vulnerabilities without requiring any task-specific tooling, custom scaffolding, or specialized prompting, Anthropic said it is putting it to use to find and help fix vulnerabilities in open-source software.   \"Opus 4.6 reads and reasons about code the way a human researcher would—looking at past fixes to find similar bugs that weren't addressed, spotting patterns that tend to cause problems, or understanding a piece of...",
+    "status": "Feb 06, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832862
+  },
+  {
+    "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
+    "description": "This week didn’t produce one big headline. It produced many small signals — the kind that quietly shape what attacks will look like next.  Researchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. Nothing looked dramatic on the surface. That’s the point. Entry is becoming less visible while impact scales later.  Several findings also show how attackers are industrializing their work — shared infrastructure, repeatable playbooks, rented access, and affiliate-style ecosystems. Operations are no longer isolated campaigns. They run more like services.  This edition pulls those fragments together — short, precise updates that show where techniques are maturing, where exposure is widening, and what patterns are forming behind the noise.             Startup espionage expansion  Operation Nomad Leopard Targets Afghanistan  In a sign that the threat actor has moved beyond government targets, th...",
+    "status": "Feb 05, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832863
+  },
+  {
+    "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
+    "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
+    "description": "The elusive Iranian threat group known as Infy  (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout  the regime imposed at the start of January 2026.  \"The threat actor stopped maintaining its C2 servers on January 8 for the first time since we began monitoring their activities,\" Tomer Bar, vice president of security research at SafeBreach, said  in a report shared with The Hacker News.  \"This was the same day a country-wide internet shutdown was imposed by Iranian authorities in response to recent protests, which likely suggests that even government-affiliated cyber units did not have the ability or motivation to carry out malicious activities within Iran.\"  The cybersecurity company said it observed renewed activity on January 26, 2026, as the hacking crew set up new C2 servers, one day before the Iranian gov...",
+    "status": "Feb 05, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832863
+  },
+  {
+    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+    "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+    "description": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw, tracked as CVE-2026-25049  (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613  (CVSS score: 9.9), another critical defect that was patched by n8n in December 2025.  \"Additional exploits in the expression evaluation of n8n have been identified and patched following CVE-2025-68613,\" n8n's maintainers said  in an advisory released Wednesday.  \"An authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n.\"   The issue affects the following versions -   <1.123.17 (Fixed in 1.123.17)  <2.5.2 (Fixed in 2.5.2)",
+    "status": "Feb 05, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832863
+  },
+  {
+    "title": "Malicious NGINX Configurations Enable Large-Scale Web Traffic Hijacking Campaign",
+    "link": "https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html",
+    "description": "Cybersecurity researchers have disclosed details of an active web traffic hijacking campaign that has targeted NGINX installations and management panels like Baota (BT) in an attempt to route it through the attacker's infrastructure.  Datadog Security Labs said  it observed threat actors associated with the recent React2Shell  ( CVE-2025-55182 , CVSS score: 10.0) exploitation using malicious NGINX configurations to pull off the attack.  \"The malicious configuration intercepts legitimate web traffic between users and websites and routes it through attacker-controlled backend servers,\" security researcher Ryan Simon said. \"The campaign targets Asian TLDs (.in, .id, .pe, .bd, .th), Chinese hosting infrastructure (Baota Panel), and government and educational TLDs (.edu, .gov).\"   The activity involves the use of shell scripts to inject malicious configurations into NGINX, an open-source reverse proxy and load balancer for web traffic management. These \"locatio...",
+    "status": "Feb 05, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832864
+  },
+  {
+    "title": "China-Linked Amaranth-Dragon Exploits WinRAR Flaw in Espionage Campaigns",
+    "link": "https://thehackernews.com/2026/02/china-linked-amaranth-dragon-exploits.html",
+    "description": "Threat actors affiliated with China have been attributed to a fresh set of cyber espionage campaigns targeting government and law enforcement agencies across Southeast Asia throughout 2025.  Check Point Research is tracking the previously undocumented activity cluster under the moniker Amaranth-Dragon , which it said shares links to the APT 41 ecosystem. Targeted countries include Cambodia, Thailand, Laos, Indonesia, Singapore, and the Philippines.  \"Many of the campaigns were timed to coincide with sensitive local political developments, official government decisions, or regional security events,\" the cybersecurity company said  in a report shared with The Hacker News. \"By anchoring malicious activity in familiar, timely contexts, the attackers significantly increased the likelihood that targets would engage with the content.\"  The Israeli firm added that the attacks were \"narrowly focused\" and \"tightly scoped,\" indicating efforts on the part o...",
+    "status": "Feb 04, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832864
+  },
+  {
+    "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
+    "link": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities ( KEV ) catalog, flagging it as actively exploited in attacks.  The vulnerability, tracked as CVE-2025-40551  (CVSS score: 9.8), is a untrusted data deserialization vulnerability that could pave the way for remote code execution.  \"SolarWinds Web Help Desk contains a deserialization of untrusted data vulnerability that could lead to remote code execution, which would allow an attacker to run commands on the host machine,\" CISA said. \"This could be exploited without authentication.\"   SolarWinds issued fixes  for the flaw last week, along with CVE-2025-40536 (CVSS score: 8.1), CVE-2025-40537 (CVSS score: 7.5), CVE-2025-40552 (CVSS score: 9.8), CVE-2025-40553 (CVSS score: 9.8), and CVE-2025-40554 (CVSS score: 9.8), in WHD version 2026.1.  There are currently no public reports about ...",
+    "status": "Feb 04, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832865
+  },
+  {
+    "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
+    "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
+    "description": "Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon , an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line Interface (CLI), that could be exploited to execute code and exfiltrate sensitive data.  The critical vulnerability has been codenamed DockerDash  by cybersecurity company Noma Labs. It was addressed by Docker with the release of version 4.50.0  in November 2025.  \"In DockerDash, a single malicious metadata label in a Docker image can be used to compromise your Docker environment through a simple three-stage attack: Gordon AI reads and interprets the malicious instruction, forwards it to the MCP  [Model Context Protocol] Gateway, which then executes it through MCP tools,\" Sasi Levi, security research lead at Noma, said in a report shared with The Hacker News.  \"Every stage happens with zero validation, taking advantage of current agents and MCP Gateway architecture.\"   ...",
+    "status": "Feb 03, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832865
+  },
+  {
+    "title": "Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package",
+    "link": "https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html",
+    "description": "Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular \"@react-native-community/cli\" npm package.  Cybersecurity company VulnCheck said  it first observed exploitation of CVE-2025-11953  (aka Metro4Shell) on December 21, 2025. With a CVSS score of 9.8, the vulnerability allows remote unauthenticated attackers to execute arbitrary operating system commands on the underlying host. Details of the flaw were first documented  by JFrog in November 2025.  Despite more than a month after initial exploitation in the wild, the \"activity has yet to see broad public acknowledgment,\" it added.  In the attack detected against its honeypot network, the threat actors have weaponized the flaw to deliver a Base64-encoded PowerShell script that, once parsed, is configured to perform a series of actions, including Microsoft Defender Antivirus exclusions for the current working directory and the temporary folder  (...",
+    "status": "Feb 03, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832865
+  },
+  {
+    "title": "APT28 Uses Microsoft Office CVE-2026-21509 in Espionage-Focused Malware Attacks",
+    "link": "https://thehackernews.com/2026/02/apt28-uses-microsoft-office-cve-2026.html",
+    "description": "The Russia-linked state-sponsored threat actor known as APT28  (aka UAC-0001) has been attributed to attacks exploiting a newly disclosed security flaw in Microsoft Office as part of a campaign codenamed Operation Neusploit .  Zscaler ThreatLabz said  it observed the hacking group weaponizing the shortcoming on January 29, 2026, in attacks targeting users in Ukraine, Slovakia, and Romania, three days after Microsoft publicly disclosed the existence of the bug.  The vulnerability in question is CVE-2026-21509  (CVSS score: 7.8), a security feature bypass in Microsoft Office that could allow an unauthorized attacker to send a specially crafted Office file and trigger it.  The Microsoft Threat Intelligence Center (MSTIC), Microsoft Security Response Center (MSRC), and Office Product Group Security Team, along with Google Threat Intelligence Group (GTIG), have been credited with discovering and reporting the flaw.  \"Social engineering lures were crafted in both English and localized ...",
+    "status": "Feb 03, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832866
+  },
+  {
+    "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
+    "link": "https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html",
+    "description": "A high-severity security flaw has been disclosed in OpenClaw  (formerly referred to as Clawdbot and Moltbot) that could allow remote code execution (RCE) through a crafted malicious link.  The issue, which is tracked as CVE-2026-25253  (CVSS score: 8.8), has been addressed in version 2026.1.29  released on January 30, 2026. It has been described as a token exfiltration vulnerability that leads to full gateway compromise.  \"The Control UI trusts gatewayUrl from the query string without validation and auto-connects on load, sending the stored gateway token in the WebSocket connect payload,\" OpenClaw's creator and maintainer Peter Steinberger said  in an advisory.   \"Clicking a crafted link or visiting a malicious site can send the token to an attacker-controlled server. The attacker can then connect to the victim's local gateway, modify config (sandbox, tool policies), and invoke privileged actions, achieving 1-click RCE.\"",
+    "status": "Feb 02, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832866
+  },
+  {
+    "title": "⚡ Weekly Recap: Proxy Botnet, Office Zero-Day, MongoDB Ransoms, AI Hijacks & New Threats",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-proxy-botnet-office-zero.html",
+    "description": "Every week brings new discoveries, attacks, and defenses that shape the state of cybersecurity. Some threats are stopped quickly, while others go unseen until they cause real damage.  Sometimes a single update, exploit, or mistake changes how we think about risk and protection. Every incident shows how defenders adapt — and how fast attackers try to stay ahead.  This week’s recap brings you the key moments that matter most, in one place, so you can stay informed and ready for what’s next.  ⚡ Threat of the Week  Google Disrupts IPIDEA Residential Proxy Network  — Google has crippled IPIDEA, a massive residential proxy network consisting of user devices that are being used as the last-mile link in cyberattack chains. According to the tech giant, not only do these networks permit bad actors to conceal their malicious traffic, but they also open up users who enroll their devices to further attacks. Residential IP addresses in the U.S., Canada, and Europe were seen as the most desirable. ...",
+    "status": "Feb 02, 2026",
+    "date": "07/02/2026 à 15:23",
+    "timestamp": 1770477832866
+  },
+  {
+    "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
+    "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
+    "description": "OpenClaw (formerly Moltbot and Clawdbot) has announced  that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader efforts to bolster the security of the agentic ecosystem.  \"All skills published to ClawHub are now scanned using VirusTotal's threat intelligence, including their new Code Insight capability,\" OpenClaw's founder Peter Steinberger, along with Jamieson O'Reilly and Bernardo Quintero said. \"This provides an additional layer of security for the OpenClaw community.\"  The process essentially entails creating a unique SHA-256 hash for every skill and cross checking it against VirusTotal's database for a match. If it's not found, the skill bundle is uploaded to the malware scanning tool for further analysis using VirusTotal Code Insight .  Skills that have a \"benign\" Code Insight verdict are automatically approved by ClawHub, while those marke...",
+    "status": "Feb 08, 2026",
+    "date": "08/02/2026 à 7:54",
+    "timestamp": 1770537262336
+  },
+  {
+    "title": "BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA",
+    "link": "https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html",
+    "description": "BeyondTrust has released updates to address a critical security flaw impacting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could result in remote code execution.  \"BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulnerability,\" the company said  in an advisory released February 6, 2026.  \"By sending specially crafted requests, an unauthenticated remote attacker may be able to execute operating system commands in the context of the site user.\"  The vulnerability, categorized as an operating system command injection , has been assigned the CVE identifier CVE-2026-1731 . It's rated 9.9 on the CVSS scoring system.   BeyondTrust said successful exploitation of the shortcoming could allow an unauthenticated remote attacker to execute operating system commands in the context of the site user, resulting in unautho...",
+    "status": "Feb 09, 2026",
+    "date": "09/02/2026 à 8:24",
+    "timestamp": 1770625462584
+  },
+  {
+    "title": "TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure",
+    "link": "https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html",
+    "description": "Cybersecurity researchers have called attention to a \"massive campaign\" that has systematically targeted cloud native environments to set up malicious infrastructure for follow-on exploitation.  The activity, observed around December 25, 2025, and described as \"worm-driven,\" leveraged exposed Docker APIs, Kubernetes clusters, Ray dashboards, and Redis servers, along with the recently disclosed React2Shell  (CVE-2025-55182, CVSS score: 10.0) vulnerability. The campaign has been attributed to a threat cluster known as TeamPCP  (aka DeadCatx3, PCPcat, PersyPCP, and ShellForce).  TeamPCP is known to be active since at least November 2025, with the first instance of Telegram activity dating back to July 30, 2025. The TeamPCP Telegram channel currently has over 700 members, where the group publishes stolen data from diverse victims across Canada, Serbia, South Korea, the U.A.E., and the U.S. Details of the threat actor were first documented  by Beelzebub in December 2025...",
+    "status": "Feb 09, 2026",
+    "date": "09/02/2026 à 8:54",
+    "timestamp": 1770627262564
+  },
+  {
+    "title": "⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors and More",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html",
+    "description": "Cyber threats are no longer coming from just malware or exploits. They’re showing up inside the tools, platforms, and ecosystems organizations use every day. As companies connect AI, cloud apps, developer tools, and communication systems, attackers are following those same paths.  A clear pattern this week: attackers are abusing trust. Trusted updates, trusted marketplaces, trusted apps, even trusted AI workflows. Instead of breaking security controls head-on, they’re slipping into places that already have access.  This recap brings together those signals — showing how modern attacks are blending technology abuse, ecosystem manipulation, and large-scale targeting into a single, expanding threat surface.  ⚡ Threat of the Week  OpenClaw announces VirusTotal Partnership  — OpenClaw has announced a partnership with Google's VirusTotal malware scanning platform to scan skills that are being uploaded to ClawHub as part of a defense-in-depth approach to improve the security of the agen...",
+    "status": "Feb 09, 2026",
+    "date": "09/02/2026 à 13:24",
+    "timestamp": 1770643462379
+  },
+  {
+    "title": "SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed Servers",
+    "link": "https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html",
+    "description": "Microsoft has revealed  that it observed a multi‑stage intrusion that involved the threat actors exploiting internet‑exposed SolarWinds Web Help Desk (WHD) instances to obtain initial access and move laterally across the organization's network to other high-value assets.  That said, the Microsoft Defender Security Research Team said it's not clear whether the activity weaponized recently disclosed flaws  (CVE-2025-40551, CVSS score: 9.8, and CVE-2025-40536, CVSS score: 8.1), or a previously patched vulnerability  (CVE-2025-26399, CVSS score: 9.8).  \"Since the attacks occurred in December 2025 and on machines vulnerable to both the old and new set of CVEs at the same time, we cannot reliably confirm the exact CVE used to gain an initial foothold,\" the company said in a report published last week.   While CVE-2025-40536 is a security control bypass vulnerability that could allow an unauthenticated attacker to gain access to certain restricted functionality, CVE-2025-...",
+    "status": "Feb 09, 2026",
+    "date": "09/02/2026 à 14:54",
+    "timestamp": 1770648862403
+  },
+  {
+    "title": "Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution",
+    "link": "https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html",
+    "description": "Fortinet has released security updates to address a critical flaw impacting FortiClientEMS that could lead to the execution of arbitrary code on susceptible systems.  The vulnerability, tracked as CVE-2026-21643 , has a CVSS rating of 9.1 out of a maximum of 10.0.   \"An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiClientEMS may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests,\" Fortinet said  in an advisory.  The shortcoming affects the following versions -   FortiClientEMS 7.2 (Not affected)  FortiClientEMS 7.4.4 (Upgrade to 7.4.5 or above)  FortiClientEMS 8.0 (Not affected)    Gwendal Guégniaud of the Fortinet Product Security team has been credited with discovering and reporting the flaw.  While Fortinet makes no mention of the vulnerability being exploited in the wild, it's essential that users move quickly to apply the fixes...",
+    "status": "Feb 10, 2026",
+    "date": "10/02/2026 à 4:54",
+    "timestamp": 1770699262390
+  },
+  {
+    "title": "Dutch Authorities Confirm Ivanti Zero-Day Exploit Exposed Employee Contact Data",
+    "link": "https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html",
+    "description": "The Netherlands' Dutch Data Protection Authority (AP) and the Council for the Judiciary confirmed both agencies (Rvdr) have disclosed that their systems were impacted by cyber attacks that exploited the recently disclosed security flaws in Ivanti Endpoint Manager Mobile (EPMM), according to a notice sent to the country's parliament on Friday.  \"On January 29, the National Cyber Security Center (NCSC) was informed by the supplier of vulnerabilities in EPMM,\" the Dutch authorities said . \"EPMM is used to manage mobile devices, apps, and content, including their security.\"  \"It is now known that work-related data of AP employees, such as names, business email addresses, and telephone numbers, have been accessed by unauthorized persons.\"   The development comes as the European Commission also revealed that its central infrastructure managing mobile devices \"identified traces\" of a cyber attack that may have resulted in access to names and mo...",
+    "status": "Feb 10, 2026",
+    "date": "10/02/2026 à 8:24",
+    "timestamp": 1770711862439
+  },
+  {
+    "title": "Warlock Ransomware Breaches SmarterTools Through Unpatched SmarterMail Server",
+    "link": "https://thehackernews.com/2026/02/warlock-ransomware-breaches.html",
+    "description": "SmarterTools confirmed last week that the Warlock (aka Storm-2603) ransomware gang breached its network by exploiting an unpatched SmarterMail instance.  The incident took place on January 29, 2026, when a mail server that was not updated to the latest version was compromised, the company's Chief Commercial Officer, Derek Curtis, said.  \"Prior to the breach, we had approximately 30 servers/VMs with SmarterMail installed throughout our network,\" Curtis explained . \"Unfortunately, we were unaware of one VM, set up by an employee, that was not being updated. As a result, that mail server was compromised, which led to the breach.\"  However, SmarterTools emphasized that the breach did not affect its website, shopping cart, My Account portal, and several other services, and that no business applications or account data were affected or compromised.   About 12 Windows servers on the company's office network, as well as a secondary data center used for quality cont...",
+    "status": "Feb 10, 2026",
+    "date": "10/02/2026 à 10:54",
+    "timestamp": 1770720862724
+  },
+  {
+    "title": "Reynolds Ransomware Embeds BYOVD Driver to Disable EDR Security Tools",
+    "link": "https://thehackernews.com/2026/02/reynolds-ransomware-embeds-byovd-driver.html",
+    "description": "Cybersecurity researchers have disclosed details of an emergent ransomware family dubbed Reynolds  that comes embedded with a built-in bring your own vulnerable driver (BYOVD) component for defense evasion purposes within the ransomware payload itself.  BYOVD refers to an adversarial technique  that abuses legitimate but flawed driver software to escalate privileges and disable Endpoint Detection and Response (EDR) solutions so that malicious activities go unnoticed. The strategy has been adopted  by many ransomware groups  over the years.  \"Normally, the BYOVD defense evasion component of an attack would involve a distinct tool that would be deployed on the system prior to the ransomware payload in order to disable security software,\" the Symantec and Carbon Black Threat Hunter Team said  in a report shared with The Hacker News. \"However, in this attack, the vulnerable driver (an NsecSoft NSecKrnl driver) was bundled with the ransomware itself.\"  Broadcom's ...",
+    "status": "Feb 10, 2026",
+    "date": "10/02/2026 à 14:54",
+    "timestamp": 1770735262483
+  },
+  {
+    "title": "Microsoft Patches 59 Vulnerabilities Including Six Actively Exploited Zero-Days",
+    "link": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
+    "description": "Microsoft on Tuesday released security updates to address a set of 59 flaws  across its software, including six vulnerabilities that it said have been exploited in the wild.  Of the 59 flaws, five are rated Critical, 52 are rated Important, and two are rated Moderate in severity. Twenty-five of the patched vulnerabilities have been classified as privilege escalation, followed by remote code execution (12), spoofing (7), information disclosure (6), security feature bypass (5), denial-of-service (3), and cross-site scripting (1).  It's worth noting that the patches are in addition to three security flaws  that Microsoft has addressed in its Edge browser since the release of the January 2026 Patch Tuesday update , including a Moderate vulnerability impacting the Edge browser for Android ( CVE-2026-0391 , CVSS score: 6.5) that could allow an unauthorized attacker to perform spoofing over a network by taking advantage of a \"user interface misrepresentation of critical information....",
+    "status": "Feb 11, 2026",
+    "date": "11/02/2026 à 10:24",
+    "timestamp": 1770805462708
+  },
+  {
+    "title": "SSHStalker Botnet Uses IRC C2 to Control Linux Systems via Legacy Kernel Exploits",
+    "link": "https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html",
+    "description": "Cybersecurity researchers have disclosed details of a new botnet operation called SSHStalker  that relies on the Internet Relay Chat ( IRC ) communication protocol for command-and-control (C2) purposes.  \"The toolset blends stealth helpers with legacy-era Linux exploitation: Alongside log cleaners (utmp/wtmp/lastlog tampering) and rootkit-class artifacts, the actor keeps a large back-catalog of Linux 2.6.x-era exploits (2009–2010 CVEs),\" cybersecurity company Flare said . \"These are low value against modern stacks, but remain effective against 'forgotten' infrastructure and long-tail legacy environments.\"  SSHStalker combines IRC botnet mechanics with an automated mass-compromise operation that uses an SSH scanner and other readily available scanners to co-opt susceptible systems into a network and enroll them in IRC channels.",
+    "status": "Feb 11, 2026",
+    "date": "11/02/2026 à 10:24",
+    "timestamp": 1770805462708
+  },
+  {
+    "title": "Over 60 Software Vendors Issue Security Fixes Across OS, Cloud, and Network Platforms",
+    "link": "https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html",
+    "description": "It's Patch Tuesday, which means a number of software vendors have released patches for various security vulnerabilities impacting their products and services.  Microsoft issued  fixes for 59 flaws, including six actively exploited zero-days in various Windows components that could be abused to bypass security features, escalate privileges, and trigger a denial-of-service (DoS) condition.  Elsewhere, Adobe released  updates for Audition, After Effects, InDesign Desktop, Substance 3D, Bridge, Lightroom Classic, and DNG SDK. The company said it's not aware of in-the-wild exploitation of any of the shortcomings.  SAP shipped  fixes for two critical-severity vulnerabilities, including a code injection bug in SAP CRM and SAP S/4HANA (CVE-2026-0488, CVSS score: 9.9) that an authenticated attacker could use to run an arbitrary SQL statement and lead to a full database compromise.  The second critical vulnerability is a case of a missing authorization check in SAP NetWeaver Application...",
+    "status": "Feb 11, 2026",
+    "date": "11/02/2026 à 13:54",
+    "timestamp": 1770818062436
+  },
+  {
+    "title": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Apple Devices",
+    "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+    "description": "Apple on Wednesday released  iOS, iPadOS, macOS Tahoe, tvOS, watchOS, and visionOS updates to address a zero-day flaw that it said has been exploited in sophisticated cyber attacks.  The vulnerability, tracked as CVE-2026-20700  (CVSS score: N/A), has been described as a memory corruption issue in dyld, Apple's Dynamic Link Editor. Successful exploitation of the vulnerability could allow an attacker with memory write capability to execute arbitrary code on susceptible devices. Google Threat Analysis Group (TAG) has been credited with discovering and reporting the bug.  \"Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26,\" the company said in an advisory. \"CVE-2025-14174 and CVE-2025-43529 were also issued in response to this report.\"   It's worth noting that both CVE-2025-14174 and CVE-2025-43529 were addressed  by Cupertino in Decembe...",
+    "status": "Feb 12, 2026",
+    "date": "12/02/2026 à 5:54",
+    "timestamp": 1770875662583
+  },
+  {
+    "title": "83% of Ivanti EPMM Exploits Linked to Single IP on Bulletproof Hosting Infrastructure",
+    "link": "https://thehackernews.com/2026/02/83-of-ivanti-epmm-exploits-linked-to.html",
+    "description": "A significant chunk of the exploitation attempts targeting a newly disclosed security flaw in Ivanti Endpoint Manager Mobile (EPMM) can be traced back to a single IP address on bulletproof hosting infrastructure offered by PROSPERO.  Threat intelligence firm GreyNoise said  it recorded 417 exploitation sessions from 8 unique source IP addresses between February 1 and 9, 2026. An estimated 346 exploitation sessions have originated from 193.24.123[.]42, accounting for 83% of all attempts.  The malicious activity is designed to exploit CVE-2026-1281  (CVSS scores: 9.8), one of the two critical security vulnerabilities in EPMM, along with CVE-2026-1340  that could be exploited by an attacker to achieve unauthenticated remote code execution. Late last month, Ivanti acknowledged it's aware of a \"very limited number of customers\" who were impacted following the zero-day exploitation of the issues.   Since then, multiple European agencies, including the Netherlands' Dutch Da...",
+    "status": "Feb 12, 2026",
+    "date": "12/02/2026 à 7:54",
+    "timestamp": 1770882862471
+  },
+  {
+    "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
+    "description": "Threat activity this week shows one consistent signal — attackers are leaning harder on what already works. Instead of flashy new exploits, many operations are built around quiet misuse of trusted tools, familiar workflows, and overlooked exposures that sit in plain sight.  Another shift is how access is gained versus how it’s used. Initial entry points are getting simpler, while post-compromise activity is becoming more deliberate, structured, and persistent. The objective is less about disruption and more about staying embedded long enough to extract value.  There’s also growing overlap between cybercrime, espionage tradecraft, and opportunistic intrusion. Techniques are bleeding across groups, making attribution harder and defense baselines less reliable.  Below is this week’s ThreatsDay Bulletin — a tight scan of the signals that matter, distilled into quick reads. Each item adds context to where threat pressure is building next.                          Notepad RCE via Markdown L...",
+    "status": "Feb 12, 2026",
+    "date": "12/02/2026 à 11:54",
+    "timestamp": 1770897262454
+  },
+  {
+    "title": "Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems",
+    "link": "https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html",
+    "description": "Cybersecurity researchers have discovered a fresh set of malicious packages across npm and the Python Package Index (PyPI) repository linked to a fake recruitment-themed campaign orchestrated by the North Korea-linked Lazarus Group.  The coordinated campaign has been codenamed graphalgo in reference to the first package published in the npm registry. It's assessed to be active since May 2025.  \"Developers are approached via social platforms like LinkedIn and Facebook, or through job offerings on forums like Reddit,\" ReversingLabs researcher Karlo Zanki said  in a report. \"The campaign includes a well-orchestrated story around a company involved in blockchain and cryptocurrency exchanges.\"  Notably, one of the identified npm packages, bigmathutils, attracted more than 10,000 downloads after the first, non-malicious version was published, and before the second version containing a malicious payload was released. The names of the packages are listed below -  npm...",
+    "status": "Feb 12, 2026",
+    "date": "12/02/2026 à 17:24",
+    "timestamp": 1770917062403
+  },
+  {
+    "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
+    "link": "https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html",
+    "description": "Google on Thursday said it observed the North Korea-linked threat actor known as UNC2970  using its generative artificial intelligence (AI) model Gemini to conduct reconnaissance on its targets, as various hacking groups continue  to weaponize the tool for accelerating various phases of the cyber attack life cycle, enabling information operations, and even conducting model extraction attacks.  \"The group used Gemini to synthesize OSINT and profile high-value targets to support campaign planning and reconnaissance,\" Google Threat Intelligence Group (GTIG) said  in a report shared with The Hacker News. \"This actor's target profiling included searching for information on major cybersecurity and defense companies and mapping specific technical job roles and salary information.\"  The tech giant's threat intelligence team characterized this activity as a blurring of boundaries between what constitutes routine professional research and malicious reconnaissance, al...",
+    "status": "Feb 12, 2026",
+    "date": "12/02/2026 à 18:24",
+    "timestamp": 1770920662465
+  },
+  {
+    "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+    "link": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+    "description": "Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr.  \"Overnight we observed first in-the-wild exploitation of BeyondTrust across our global sensors,\" Ryan Dewhurst, head of threat intelligence at watchTowr, said  in a post on X. \"Attackers are abusing get_portal_info to extract the x-ns-company value before establishing a WebSocket channel.\"  The vulnerability in question is CVE-2026-1731  (CVS score: 9.9), which could allow an unauthenticated attacker to achieve remote code execution by sending specially crafted requests.  BeyondTrust noted last week that successful exploitation of the shortcoming could allow an unauthenticated remote attacker to execute operating system commands in the context of the site user, resulting in unauthorized access, data exfiltration, and service disruption.   It has been patched in the following...",
+    "status": "Feb 13, 2026",
+    "date": "13/02/2026 à 8:54",
+    "timestamp": 1770972862681
+  },
+  {
+    "title": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
+    "link": "https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html",
+    "description": "A previously unknown threat actor tracked as UAT-9921  has been observed leveraging a new modular framework called VoidLink in its campaigns targeting the technology and financial services sectors, according to findings from Cisco Talos.  \"This threat actor seems to have been active since 2019, although they have not necessarily used VoidLink over the duration of their activity,\" researchers Nick Biasini, Aaron Boyd, Asheer Malhotra, and Vitor Ventura said . \"UAT-9921 uses compromised hosts to install VoidLink command-and-control (C2), which are then used to launch scanning activities both internal and external to the network.\"  VoidLink was first documented  by Check Point last month, describing it as a feature-rich malware framework written in Zig designed for long-term, stealthy access to Linux-based cloud environments. It's assessed to be the work of a single developer with assistance from a large language model (LLM) to flesh out its internals based on a p...",
+    "status": "Feb 13, 2026",
+    "date": "13/02/2026 à 15:24",
+    "timestamp": 1770996262696
+  },
+  {
+    "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
+    "link": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
+    "description": "Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild.  The high-severity vulnerability, tracked as CVE-2026-2441  (CVSS score: 8.8), has been described as a use-after-free bug in CSS. Security researcher Shaheen Fazim has been credited with discovering and reporting the shortcoming on February 11, 2026.  \"Use after free in CSS in Google Chrome prior to 145.0.7632.75 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page,\" according to a description of the flaw in the NIST's National Vulnerability Database (NVD).  Google did not disclose any details about how the vulnerability is being exploited in the wild, by whom, or who may have been targeted, but it acknowledged  that \"an exploit for CVE-2026-2441 exists in the wild.\"   While Google Chrome is no stranger to actively exploited vulnerabilities, the development once again highlights how bro...",
+    "status": "Feb 16, 2026",
+    "date": "16/02/2026 à 6:54",
+    "timestamp": 1771224862470
+  },
+  {
+    "title": "Weekly Recap: Outlook Add-Ins Hijack, 0-Day Patches, Wormable Botnet & AI Malware",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html",
+    "description": "This week’s recap shows how small gaps are turning into big entry points. Not always through new exploits, often through tools, add-ons, cloud setups, or workflows that people already trust and rarely question.  Another signal: attackers are mixing old and new methods. Legacy botnet tactics, modern cloud abuse, AI assistance, and supply-chain exposure are being used side by side, whichever path gives the easiest foothold.  Below is the full weekly recap — a condensed scan of the incidents, flaws, and campaigns shaping the threat landscape right now.  ⚡ Threat of the Week  Malicious Outlook Add-in Turns Into Phishing Kit  — In an unusual case of a supply chain attack, the legitimate AgreeTo add-in for Outlook has been hijacked and turned into a phishing kit that stole more than 4,000 Microsoft account credentials. This was made possible by seizing control of a domain associated with the now-abandoned project to serve a fake Microsoft login page. The incident demonstrates how overlooke...",
+    "status": "Feb 16, 2026",
+    "date": "16/02/2026 à 13:24",
+    "timestamp": 1771248262482
+  },
+  {
+    "title": "Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers",
+    "link": "https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html",
+    "description": "A new study has found  that multiple cloud-based password managers, including Bitwarden, Dashlane, and LastPass, are susceptible to password recovery attacks under certain conditions.  \"The attacks range in severity from integrity violations to the complete compromise of all vaults in an organization,\" researchers Matteo Scarlata, Giovanni Torrisi, Matilda Backendal, and Kenneth G. Paterson said . \"The majority of the attacks allow the recovery of passwords.\"  It's worth noting that the threat actor, per the study from ETH Zurich and Università della Svizzera italiana, supposes a malicious server and aims to examine the password manager's zero-knowledge encryption (ZKE) promises made by the three solutions. ZKE is a cryptographic technique that allows one party to prove knowledge of a secret to another party without actually revealing the secret itself.  ZKE is also a little different from end-to-end encryption (E2EE). While E2EE refers to a method of secur...",
+    "status": "Feb 16, 2026",
+    "date": "16/02/2026 à 18:24",
+    "timestamp": 1771266262929
+  },
+  {
+    "title": "Infostealer Steals OpenClaw AI Agent Configuration Files and Gateway Tokens",
+    "link": "https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html",
+    "description": "Cybersecurity researchers disclosed they have detected a case of an information stealer infection successfully exfiltrating a victim's OpenClaw  (formerly Clawdbot and Moltbot) configuration environment.  \"This finding marks a significant milestone in the evolution of infostealer behavior: the transition from stealing browser credentials to harvesting the 'souls' and identities of personal AI [artificial intelligence] agents,\" Hudson Rock said .  Alon Gal, CTO of Hudson Rock, told The Hacker News that the stealer was likely a variant of Vidar based on the infection details. Vidar is an off-the-shelf information stealer that's known to be active since late 2018.  That said, the cybersecurity company said the data capture was not facilitated by a custom OpenClaw module within the stealer malware, but rather through a \"broad file-grabbing routine\" that's designed to look for certain file extensions and specific directory names containing sensitive ...",
+    "status": "Feb 16, 2026",
+    "date": "16/02/2026 à 18:54",
+    "timestamp": 1771268062806
+  },
+  {
+    "title": "Researchers Show Copilot and Grok Can Be Abused as Malware C2 Proxies",
+    "link": "https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html",
+    "description": "Cybersecurity researchers have disclosed that artificial intelligence (AI) assistants that support web browsing or URL fetching capabilities can be turned into stealthy command-and-control (C2) relays, a technique that could allow attackers to blend into legitimate enterprise communications and evade detection.  The attack method, which has been demonstrated against Microsoft Copilot and xAI Grok, has been codenamed AI as a C2 proxy  by Check Point.  It leverages \"anonymous web access combined with browsing and summarization prompts,\" the cybersecurity company said. \"The same mechanism can also enable AI-assisted malware operations, including generating reconnaissance workflows, scripting attacker actions, and dynamically deciding 'what to do next' during an intrusion.\"  The development signals yet another consequential evolution in how threat actors could abuse AI systems, not just to scale or accelerate different phases  of the cyber attack cycle, but als...",
+    "status": "Feb 17, 2026",
+    "date": "17/02/2026 à 18:24",
+    "timestamp": 1771352662442
+  },
+  {
+    "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
+    "link": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  four security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation in the wild.  The list of vulnerabilities is as follows -   CVE-2026-2441  (CVSS score: 8.8) - A use-after-free vulnerability in Google Chrome that could allow a remote attacker to potentially exploit heap corruption via a crafted HTML page.  CVE-2024-7694  (CVSS score: 7.2) - An arbitrary file upload vulnerability  in TeamT5 ThreatSonar Anti-Ransomware versions 3.4.5 and earlier that could allow an attacker to upload malicious files and achieve arbitrary system command execution on the server.  CVE-2020-7796  (CVSS score: 9.8) - A server-side request forgery (SSRF) vulnerability in Synacor Zimbra Collaboration Suite (ZCS) that could allow an attacker to send a crafted HTTP request to a remote host and obtain unauthorized access to sensitive information.  CVE-2008-0015  (CVSS score: 8.8) - ...",
+    "status": "Feb 18, 2026",
+    "date": "18/02/2026 à 6:54",
+    "timestamp": 1771397662615
+  },
+  {
+    "title": "Notepad++ Fixes Hijacked Update Mechanism Used to Deliver Targeted Malware",
+    "link": "https://thehackernews.com/2026/02/notepad-fixes-hijacked-update-mechanism.html",
+    "description": "Notepad++ has released a security fix to plug gaps that were exploited by an advanced threat actor from China to hijack the software update mechanism to selectively deliver malware to targets of interest.  The version 8.9.2 update  incorporates what maintainer Don Ho calls  a \"double lock\" design that aims to make the update process \"robust and effectively unexploitable.\" This includes verification of the signed installer downloaded from GitHub (implemented in version 8.8.9 and later), as well as the newly added verification of the signed XML returned by the update server at notepad-plus-plus[.]org.  In addition to these enhancements, security-focused changes have been introduced to WinGUp, the auto-updater component -   Removal of libcurl.dll to eliminate DLL side-loading risk  Removal of two unsecured cURL SSL options: CURLSSLOPT_ALLOW_BEAST and CURLSSLOPT_NO_REVOKE  Restriction of plugin management execution to programs signed with the same certificate as WinGUp...",
+    "status": "Feb 18, 2026",
+    "date": "18/02/2026 à 7:54",
+    "timestamp": 1771401262903
+  },
+  {
+    "title": "Dell RecoverPoint for VMs Zero-Day CVE-2026-22769 Exploited Since Mid-2024",
+    "link": "https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html",
+    "description": "A maximum severity security vulnerability in Dell RecoverPoint for Virtual Machines has been exploited as a zero-day by a suspected China-nexus threat cluster dubbed UNC6201  since mid-2024, according to a new report  from Google Mandiant and Google Threat Intelligence Group (GTIG).  The activity involves the exploitation of CVE-2026-22769 (CVSS score: 10.0), a case of hard-coded credentials affecting versions prior to 6.0.3.1 HF1. Other products, including RecoverPoint Classic, are not vulnerable to the flaw.  \"This is considered critical as an unauthenticated remote attacker with knowledge of the hardcoded credential could potentially exploit this vulnerability, leading to unauthorized access to the underlying operating system and root-level persistence,\" Dell said in a bulletin released Tuesday.  The issue impacts the following products -   RecoverPoint for Virtual Machines Version 5.3 SP4 P1 - Migrate from RecoverPoint for Virtual Machines 5.3 SP4 P1 to 6.0 SP3, and th...",
+    "status": "Feb 18, 2026",
+    "date": "18/02/2026 à 10:24",
+    "timestamp": 1771410262536
+  },
+  {
+    "title": "Critical Flaws Found in Four VS Code Extensions with Over 125 Million Installs",
+    "link": "https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html",
+    "description": "Cybersecurity researchers have disclosed multiple security vulnerabilities in four popular Microsoft Visual Studio Code (VS Code) extensions that, if successfully exploited, could allow threat actors to steal local files and execute code remotely.  The extensions, which have been collectively installed more than 125 million times, are Live Server, Code Runner, Markdown Preview Enhanced, and Microsoft Live Preview.  \"Our research demonstrates that a hacker needs only one malicious extension, or a single vulnerability within one extension, to perform lateral movement and compromise entire organizations,\" OX Security researchers Moshe Siman Tov Bustan and Nir Zadok said  in a report shared with The Hacker News.   Details of the vulnerabilities are as follows -   CVE-2025-65717  (CVSS score: 9.1) - A vulnerability in Live Server that allows attackers to exfiltrate local files, tricking a developer into visiting a malicious website when the extension is running, causing JavaScrip...",
+    "status": "Feb 18, 2026",
+    "date": "18/02/2026 à 13:24",
+    "timestamp": 1771421062530
+  },
+  {
+    "title": "Grandstream GXP1600 VoIP Phones Exposed to Unauthenticated Remote Code Execution",
+    "link": "https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html",
+    "description": "Cybersecurity researchers have disclosed a critical security flaw in the Grandstream GXP1600 series of VoIP phones that could allow an attacker to seize control of susceptible devices.  The vulnerability, tracked as CVE-2026-2329 , carries a CVSS score of 9.3 out of a maximum of 10.0. It has been described as a case of unauthenticated stack-based buffer overflow that could result in remote code execution.  \"A remote attacker can leverage CVE-2026-2329 to achieve unauthenticated remote code execution (RCE) with root privileges on a target device,\" Rapid7 researcher Stephen Fewer, who discovered and reported the bug on January 6, 2026, said .  According to the cybersecurity company, the issue is rooted in the device's web-based API service (\"/cgi-bin/api.values.get\") and is accessible in a default configuration without requiring authentication.  This endpoint is designed to fetch one or more configuration values from the phone, such as the firmware version number...",
+    "status": "Feb 18, 2026",
+    "date": "18/02/2026 à 16:54",
+    "timestamp": 1771433662955
+  },
+  {
+    "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
+    "description": "The cyber threat space doesn’t pause, and this week makes that clear. New risks, new tactics, and new security gaps are showing up across platforms, tools, and industries — often all at the same time.  Some developments are headline-level. Others sit in the background but carry long-term impact. Together, they shape how defenders need to think about exposure, response, and preparedness right now.  This edition of ThreatsDay Bulletin brings those signals into one place. Scan through the roundup for quick, clear updates on what’s unfolding across the cybersecurity and hacking landscape.                          Privacy model hardening             Google Showcases New Privacy and Security Features in Android 17                  Google announced  the first beta version of Android 17 , with two privacy and security enhancements: the deprecation of Cleartext Traffic Attribute and support for HPKE Hybrid Cryptography to enable secure communication using a combination of public key and symme...",
+    "status": "Feb 19, 2026",
+    "date": "19/02/2026 à 14:54",
+    "timestamp": 1771512862574
+  },
+  {
+    "title": "Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center",
+    "link": "https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html",
+    "description": "Microsoft has disclosed a now-patched security flaw in Windows Admin Center that could allow an attacker to escalate their privileges.  Windows Admin Center  is a locally deployed, browser-based management tool set that lets users manage their Windows Clients, Servers, and Clusters without the need for connecting to the cloud.  The high-severity vulnerability, tracked as CVE-2026-26119 , carries a CVSS score of 8.8 out of a maximum of 10.0  \"Improper authentication in Windows Admin Center allows an authorized attacker to elevate privileges over a network,\" Microsoft said  in an advisory released on February 17, 2026. \"The attacker would gain the rights of the user that is running the affected application.\"   Microsoft credited Semperis researcher Andrea Pierini with discovering and reporting the vulnerability. It's worth mentioning that the security issue was patched by the tech giant in Windows Admin Center version 2511  released in December 2025.   While the ...",
+    "status": "Feb 19, 2026",
+    "date": "19/02/2026 à 17:54",
+    "timestamp": 1771523662799
+  },
+  {
+    "title": "CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog",
+    "link": "https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerabilities in question are listed below -   CVE-2025-49113  (CVSS score: 9.9) - A deserialization of untrusted data vulnerability that allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php. (Fixed in June 2025 )  CVE-2025-68461  (CVSS score: 7.2) - A cross-site scripting vulnerability via the animate tag in an SVG document. (Fixed in December 2025 )    Dubai-based cybersecurity company FearsOff, whose founder and CEO, Kirill Firsov, was credited with discovering and reporting CVE-2025-49113, said attackers have already \" diffed and weaponized the vulnerability \" within 48 hours of public disclosure of the flaw. An exploit for the vulnerability wa...",
+    "status": "Feb 21, 2026",
+    "date": "21/02/2026 à 7:24",
+    "timestamp": 1771658662601
+  },
+  {
+    "title": "Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning",
+    "link": "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
+    "description": "Artificial intelligence (AI) company Anthropic has begun to roll out a new security feature for Claude Code that can scan a user's software codebase for vulnerabilities and suggest patches.  The capability, called Claude Code Security , is currently available in a limited research preview to Enterprise and Team customers.  \"It scans codebases for security vulnerabilities and suggests targeted software patches for human review, allowing teams to find and fix security issues that traditional methods often miss,\" the company said  in a Friday announcement.  Anthropic said the feature aims to leverage AI as a tool to help find and resolve vulnerabilities to counter attacks where threat actors weaponize the same tools to automate vulnerability discovery.    With AI agents increasingly  capable of detecting security vulnerabilities  that have otherwise escaped human notice, the tech upstart said the same capabilities could be used by adversaries to uncover exploitable weakness...",
+    "status": "Feb 21, 2026",
+    "date": "21/02/2026 à 8:24",
+    "timestamp": 1771662263094
+  },
+  {
+    "title": "AI-Assisted Threat Actor Compromises 600+ FortiGate Devices in 55 Countries",
+    "link": "https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html",
+    "description": "A Russian-speaking, financially motivated threat actor has been observed taking advantage of commercial generative artificial intelligence (AI) services to compromise over 600 FortiGate devices located in 55 countries.  That's according to new findings from Amazon Threat Intelligence, which said it observed the activity between January 11 and February 18, 2026.  \"No exploitation of FortiGate vulnerabilities was observed—instead, this campaign succeeded by exploiting exposed management ports and weak credentials with single-factor authentication, fundamental security gaps that AI helped an unsophisticated actor exploit at scale,\" CJ Moses, Chief Information Security Officer (CISO) of Amazon Integrated Security, said  in a report.  The tech giant described the threat actor as having limited technical capabilities, a constraint they overcame by relying on multiple commercial generative AI tools to implement various phases of the attack cycle, such as tool development, attac...",
+    "status": "Feb 21, 2026",
+    "date": "21/02/2026 à 14:54",
+    "timestamp": 1771685662813
+  },
+  {
+    "title": "MuddyWater Targets MENA Organizations with GhostFetch, CHAR, and HTTP_VIP",
+    "link": "https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html",
+    "description": "The Iranian hacking group known as MuddyWater  (aka Earth Vetala, Mango Sandstorm, and MUDDYCOAST) has targeted several organizations and individuals mainly located across the Middle East and North Africa (MENA) region as part of a new campaign codenamed Operation Olalampo .  The activity, first observed on January 26, 2026, has resulted in the deployment of new malware families that share overlapping samples previously identified as used by the threat actor, according to a report published by Group-IB. These include downloaders like GhostFetch and HTTP_VIP, along with a Rust backdoor called CHAR and an advanced implant codenamed GhostBackDoor that's dropped by GhostFetch.  \"These attacks follow similar patterns and align with the killchains previously observed in MuddyWater attacks; starting with a phishing email with a Microsoft Office document attached to it that contains malicious macro code that decodes the embedded payload and drops it on the system and executes it, pro...",
+    "status": "Feb 23, 2026",
+    "date": "23/02/2026 à 7:54",
+    "timestamp": 1771833262870
+  },
+  {
+    "title": "⚡ Weekly Recap: Double-Tap Skimmers, PromptSpy AI, 30Tbps DDoS, Docker Malware & More",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html",
+    "description": "Security news rarely moves in a straight line. This week, it feels more like a series of sharp turns, some happening quietly in the background, others playing out in public view. The details are different, but the pressure points are familiar.  Across devices, cloud services, research labs, and even everyday apps, the line between normal behavior and hidden risk keeps getting thinner. Tools meant to protect, update, or improve systems are also becoming pathways when something goes wrong.  This recap gathers the signals in one place. Quick reads, real impact, and developments that deserve a closer look before they become next week’s bigger problem.  ⚡ Threat of the Week  Dell RecoverPoint for VMs Zero-Day Exploited  — A maximum severity security vulnerability in Dell RecoverPoint for Virtual Machines has been exploited as a zero-day by a suspected China-nexus threat cluster dubbed UNC6201 since mid-2024. The activity involves the exploitation of CVE-2026-22769 (CVSS score: 10.0), a ca...",
+    "status": "Feb 23, 2026",
+    "date": "23/02/2026 à 13:24",
+    "timestamp": 1771853062693
+  },
+  {
+    "title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
+    "link": "https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html",
+    "description": "Cybersecurity researchers have disclosed details of a new cryptojacking campaign that uses pirated software bundles as lures to deploy a bespoke XMRig miner program on compromised hosts.  \"Analysis of the recovered dropper, persistence triggers, and mining payload reveals a sophisticated, multi-stage infection prioritizing maximum cryptocurrency mining hashrate, often destabilizing the victim system,\" Trellix researcher Aswath A said  in a technical report published last week.  \"Furthermore, the malware exhibits worm-like capabilities, spreading across external storage devices, enabling lateral movement even in air-gapped environments.\"  The entry point of the attack is the use of social engineering decoys, advertising free premium software in the form of pirated software bundles, such as installers for office productivity suites, to trick unsuspecting users into downloading malware-laced executables.  The binary acts as the central nervous system of the infectio...",
+    "status": "Feb 23, 2026",
+    "date": "23/02/2026 à 18:24",
+    "timestamp": 1771871063098
+  },
+  {
+    "title": "UnsolicitedBooker Targets Central Asian Telecoms With LuciDoor and MarsSnake Backdoors",
+    "link": "https://thehackernews.com/2026/02/unsolicitedbooker-targets-central-asian.html",
+    "description": "The threat activity cluster known as UnsolicitedBooker  has been observed targeting telecommunications companies in Kyrgyzstan and Tajikistan, marking a shift from prior attacks aimed at Saudi Arabian entities.  The attacks involve the deployment of two distinct backdoors codenamed LuciDoor and MarsSnake, according to a report published by Positive Technologies last week.  \"The group used several unique and rare instruments of Chinese origin,\" researchers Alexander Badaev and Maxim Shamanov said .  UnsolicitedBooker was first documented  by ESET in May 2025, attributing the China-aligned threat actor to a cyber attack targeting an unnamed international organization in Saudi Arabia with a backdoor dubbed MarsSnake. The group is assessed to be active since at least March 2023 and has a history of targeting organizations in Asia, Africa, and the Middle East.  Further analysis of the threat actor has uncovered tactical overlaps with two other clusters, including Space Pirates an...",
+    "status": "Feb 24, 2026",
+    "date": "24/02/2026 à 10:24",
+    "timestamp": 1771928662951
+  },
+  {
+    "title": "CISA Confirms Active Exploitation of FileZen CVE-2026-25108 Vulnerability",
+    "link": "https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a recently disclosed vulnerability in FileZen to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerability, tracked as CVE-2026-25108  (CVSS v4 score: 8.7), is a case of operating system (OS) command injection that could allow an authenticated user to execute arbitrary commands via specially crafted HTTP requests.  \"Soliton Systems K.K FileZen contains an OS command injection vulnerability when a user logs-in to the affected product and sends a specially crafted HTTP request,\" CISA said.   According to the Japan Vulnerability Notes (JVN), the vulnerability affects  the following versions of the file transfer product -   Versions 4.2.1 to 4.2.8  Versions 5.0.0 to 5.0.10    Soliton noted in its advisory that successful exploitation of the issue is only possible when FileZen Antivirus Check Option is enabled, adding it has \"received at le...",
+    "status": "Feb 25, 2026",
+    "date": "25/02/2026 à 5:24",
+    "timestamp": 1771997062737
+  },
+  {
+    "title": "SolarWinds Patches 4 Critical Serv-U 15.5 Flaws Allowing Root Code Execution",
+    "link": "https://thehackernews.com/2026/02/solarwinds-patches-4-critical-serv-u.html",
+    "description": "SolarWinds has released updates  to address four critical security flaws in its Serv-U file transfer software that, if successfully exploited, could result in remote code execution.  The vulnerabilities, all rated 9.1 on the CVSS scoring system, are listed below -   CVE-2025-40538  - A broken access control vulnerability that allows an attacker to create a system admin user and execute arbitrary code as root via domain admin or group admin privileges.  CVE-2025-40539  - A type confusion vulnerability that allows an attacker to execute arbitrary native code as root.  CVE-2025-40540  - A type confusion vulnerability that allows an attacker to execute arbitrary native code as root.  CVE-2025-40541  - An insecure direct object reference (IDOR) vulnerability that allows an attacker to execute native code as root.    SolarWinds noted that the vulnerabilities require administrative privileges for successful exploitation. It also said that they carry a medium security risk on Windows deployme...",
+    "status": "Feb 25, 2026",
+    "date": "25/02/2026 à 7:24",
+    "timestamp": 1772004262910
+  },
+  {
+    "title": "Claude Code Flaws Allow Remote Code Execution and API Key Exfiltration",
+    "link": "https://thehackernews.com/2026/02/claude-code-flaws-allow-remote-code.html",
+    "description": "Cybersecurity researchers have disclosed  multiple security vulnerabilities in Anthropic's Claude Code, an artificial intelligence (AI)-powered coding assistant, that could result in remote code execution and theft of API credentials.  \"The vulnerabilities exploit various configuration mechanisms, including Hooks, Model Context Protocol (MCP) servers, and environment variables – executing arbitrary shell commands and exfiltrating Anthropic API keys when users clone and open untrusted repositories,\" Check Point Research said  in a report shared with The Hacker News.  The identified shortcomings fall under three broad categories -   No CVE  (CVSS score: 8.7) - A code injection vulnerability stemming from a user consent bypass when starting Claude Code in a new directory that could result in arbitrary code execution without additional confirmation via untrusted project hooks  defined in .claude/settings.json. (Fixed in version 1.0.87 in September 2025)  CVE-2025-59536  (CVS...",
+    "status": "Feb 25, 2026",
+    "date": "25/02/2026 à 17:24",
+    "timestamp": 1772040262811
+  },
+  {
+    "title": "Cisco SD-WAN Zero-Day CVE-2026-20127 Exploited Since 2023 for Admin Access",
+    "link": "https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html",
+    "description": "A newly disclosed maximum-severity security flaw in Cisco Catalyst SD-WAN Controller (formerly vSmart) and Catalyst SD-WAN Manager (formerly vManage) has come under active exploitation in the wild as part of malicious activity that dates back to 2023.  The vulnerability, tracked as CVE-2026-20127  (CVSS score: 10.0), allows an unauthenticated remote attacker to bypass authentication and obtain administrative privileges on the affected system by sending a crafted request to an affected system.  Successful exploitation of the flaw could allow the adversary to obtain elevated privileges on the system as an internal, high-privileged, non-root user account.  \"This vulnerability exists because the peering authentication mechanism in an affected system is not working properly,\" Cisco said  in an advisory, adding the threat actor could leverage the non-root user account to access NETCONF and manipulate network configuration for the SD-WAN fabric.    The shortcoming affects the follo...",
+    "status": "Feb 26, 2026",
+    "date": "26/02/2026 à 6:24",
+    "timestamp": 1772087063075
+  },
+  {
+    "title": "ThreatsDay Bulletin: Kali Linux + Claude, Chrome Crash Traps, WinRAR Flaws, LockBit & 15+ Stories",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-kali-linux-claude.html",
+    "description": "Nothing here looks dramatic at first glance. That’s the point. Many of this week’s threats begin with something ordinary, like an ad, a meeting invite, or a software update.  Behind the scenes, the tactics are sharper. Access happens faster. Control is established sooner. Cleanup becomes harder.  Here is a quick look at the signals worth paying attention to.                       AI-powered command execution             Kali Linux Integrates Claude AI Assistant via MCP                  Kali Linux, an advanced penetration testing Linux distribution used for ethical hacking and network security assessments, has added  an integration with Anthropic's Claude large language model through the Model Context Protocol (MCP) to issue commands in natural language and translate them into technical commands.                           Belarus-linked Android spyware             ResidentBat Infrastructure Analyzed                  ResidentBat is an Android spyware implant used by Belarusian autho...",
+    "status": "Feb 26, 2026",
+    "date": "26/02/2026 à 14:54",
+    "timestamp": 1772117662805
+  },
+  {
+    "title": "900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks",
+    "link": "https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html",
+    "description": "The Shadowserver Foundation has revealed  that over 900 Sangoma FreePBX instances still remain infected with web shells as part of attacks that exploited a command injection vulnerability starting in December 2025.  Of these, 401 instances  are located in the U.S., followed by 51 in Brazil, 43 in Canada, 40 in Germany, and 36 in France.  The non-profit entity said the compromises are likely accomplished via the exploitation of CVE-2025-64328 (CVSS score: 8.6), a high-severity security flaw that could enable post-authentication command injection.  \"The impact is that any user with access to the FreePBX Administration panel could leverage this vulnerability to execute arbitrary shell commands on the underlying host,\" FreePBX said  in an advisory for the flaw in November 2025. \"An attacker could leverage this to obtain remote access to the system as the asterisk user.\"   The vulnerability affects FreePBX versions higher than and including 17.0.2.36. It was resolved in...",
+    "status": "Feb 27, 2026",
+    "date": "27/02/2026 à 18:24",
+    "timestamp": 1772216662913
+  },
+  {
+    "title": "Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement",
+    "link": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
+    "description": "New research has found that Google Cloud API keys, typically designated as project identifiers for billing purposes, could be abused to authenticate to sensitive Gemini endpoints and access private data.  The findings come from Truffle Security, which discovered nearly 3,000 Google API keys (identified by the prefix \"AIza\") embedded in client-side code to provide Google-related services like embedded maps on websites.  \"With a valid key, an attacker can access uploaded files, cached data, and charge LLM-usage to your account,\" security researcher Joe Leon said , adding the keys \"now also authenticate to Gemini even though they were never intended for it.\"  The problem occurs when users enable the Gemini API on a Google Cloud project (i.e., Generative Language API), causing the existing API keys in that project, including those accessible via the website JavaScript code, to gain surreptitious access to Gemini endpoints without any warning or notice.   Th...",
+    "status": "Feb 28, 2026",
+    "date": "28/02/2026 à 10:24",
+    "timestamp": 1772274262872
+  },
+  {
+    "title": "ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
+    "link": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
+    "description": "OpenClaw has fixed a high-severity security issue that, if successfully exploited, could have allowed a malicious website to connect to a locally running artificial intelligence (AI) agent and take over control.  \"Our vulnerability lives in the core system itself – no plugins, no marketplace, no user-installed extensions – just the bare OpenClaw gateway, running exactly as documented,\" Oasis Security said  in a report published this week.  The flaw has been codenamed ClawJacked  by the cybersecurity company.  The attack assumes the following threat model: A developer has OpenClaw  set up and running on their laptop, with its gateway , a local WebSocket server, bound to localhost and protected by a password. The attack kicks in when the developer lands on an attacker-controlled website through social engineering or some other means.  The infection sequence then follows the steps below -   Malicious JavaScript on the web page opens a WebSocket connection to localhost on the ...",
+    "status": "Feb 28, 2026",
+    "date": "28/02/2026 à 17:24",
+    "timestamp": 1772299462718
+  },
+  {
+    "title": "APT28 Tied to CVE-2026-21513 MSHTML 0-Day Exploited Before Feb 2026 Patch Tuesday",
+    "link": "https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html",
+    "description": "A recently disclosed security flaw patched by Microsoft may have been exploited by the Russia-linked state-sponsored threat actor known as APT28 , according to new findings  from Akamai.  The vulnerability in question is CVE-2026-21513  (CVSS score: 8.8), a high-severity security feature bypass affecting the MSHTML Framework.  \"Protection mechanism failure in MSHTML Framework allows an unauthorized attacker to bypass a security feature over a network,\" Microsoft noted  in its advisory for the flaw. It was fixed  by the Windows maker as part of its February 2026 Patch Tuesday update.  However, the tech giant also noted that the vulnerability had been exploited as a zero-day in real-world attacks, crediting the Microsoft Threat Intelligence Center (MSTIC), Microsoft Security Response Center (MSRC), and Office Product Group Security Team, along with Google Threat Intelligence Group (GTIG), for reporting it.   In a hypothetical attack scenario, a threat actor could weaponize th...",
+    "status": "Mar 02, 2026",
+    "date": "02/03/2026 à 10:54",
+    "timestamp": 1772448862849
+  },
+  {
+    "title": "⚡ Weekly Recap: SD-WAN 0-Day, Critical CVEs, Telegram Probe, Smart TV Proxy SDK and More",
+    "link": "https://thehackernews.com/2026/03/weekly-recap-sd-wan-0-day-critical-cves.html",
+    "description": "This week is not about one big event. It shows where things are moving. Network systems, cloud setups, AI tools, and common apps are all being pushed in different ways. Small gaps in access control, exposed keys, and normal features are being used as entry points.  The pattern becomes clear only when you see everything together. Faster scans, smarter misuse of trusted services, and steady targeting of high-value sectors. Each story adds context. Reading them all gives a fuller picture of how today’s threat landscape is evolving.  ⚡ Threat of the Week  Cisco SD-WAN Zero-Day Exploited  — A newly disclosed maximum-severity security flaw in Cisco Catalyst SD-WAN Controller (formerly vSmart) and Catalyst SD-WAN Manager (formerly vManage) has come under active exploitation in the wild as part of malicious activity that dates back to 2023. The vulnerability, tracked as CVE-2026-20127 (CVSS score: 10.0), allows an unauthenticated remote attacker to bypass authentication and obtain administr...",
+    "status": "Mar 02, 2026",
+    "date": "02/03/2026 à 13:54",
+    "timestamp": 1772459662825
+  },
+  {
+    "title": "New Chrome Vulnerability Let Malicious Extensions Escalate Privileges via Gemini Panel",
+    "link": "https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html",
+    "description": "Cybersecurity researchers have disclosed details of a now-patched security flaw in Google Chrome that could have permitted attackers to escalate privileges and gain access to local files on the system.  The vulnerability, tracked as CVE-2026-0628  (CVSS score: 8.8), has been described as a case of insufficient policy enforcement in the WebView tag. It was patched  by Google in early January 2026 in version 143.0.7499.192/.193 for Windows/Mac and 143.0.7499.192 for Linux.  \"Insufficient policy enforcement in WebView tag in Google Chrome prior to 143.0.7499.192 allowed an attacker who convinced a user to install a malicious extension to inject scripts or HTML into a privileged page via a crafted Chrome extension,\" according to a description on the NIST National Vulnerability Database (NVD).  Palo Alto Networks Unit 42 researcher Gal Weizman, who discovered and reported the flaw on November 23, 2025, said  the issue could have permitted malicious extensions with basic permissi...",
+    "status": "Mar 02, 2026",
+    "date": "02/03/2026 à 17:24",
+    "timestamp": 1772472262820
+  },
+  {
+    "title": "Google Confirms CVE-2026-21385 in Qualcomm Android Component Exploited",
+    "link": "https://thehackernews.com/2026/03/google-confirms-cve-2026-21385-in.html",
+    "description": "Google on Monday disclosed  that a high-severity security flaw impacting an open-source Qualcomm component used in Android devices has been exploited in the wild.  The vulnerability in question is CVE-2026-21385  (CVSS score: 7.8), a buffer over-read in the Graphics component.  \"Memory corruption when adding user-supplied data without checking available buffer space,\" Qualcomm said  in an advisory, describing it as an integer overflow.  The chipmaker said the flaw was reported to it through Google's Android Security team on December 18, 2025. Customers were notified of the security defect on February 2, 2026.   There are currently no details on how the vulnerability is being exploited in the wild. However, Google acknowledged in its monthly Android security bulletin that \"there are indications that CVE-2026-21385 may be under limited, targeted exploitation.\"  Google's March 2026 update contains patches for a total of 129 vulnerabilities, including a critica...",
+    "status": "Mar 03, 2026",
+    "date": "03/03/2026 à 7:24",
+    "timestamp": 1772522662811
+  },
+  {
+    "title": "Open-Source CyberStrikeAI Deployed in AI-Driven FortiGate Attacks Across 55 Countries",
+    "link": "https://thehackernews.com/2026/03/open-source-cyberstrikeai-deployed-in.html",
+    "description": "The threat actor behind the recently disclosed artificial intelligence (AI)-assisted campaign targeting Fortinet FortiGate appliances leveraged an open-source, AI-native security testing platform called CyberStrikeAI  to execute the attacks.  The new findings come from Team Cymru, which detected its use following an analysis of the IP address (\"212.11.64[.]250\") that was used by the suspected Russian-speaking threat actor to conduct automated mass scanning for vulnerable appliances.  CyberStrikeAI is an \"open-source artificial intelligence (AI) offensive security tool (OST) developed by a China-based developer who we assess has some ties to the Chinese government,\" security researcher Will Thomas (aka @BushidoToken ) said .  Details of the AI-powered activity came to light last month when Amazon Threat Intelligence said  it detected the unknown attacker systematically targeting FortiGate devices using generative artificial intelligence (AI) services like Anthropic ...",
+    "status": "Mar 03, 2026",
+    "date": "03/03/2026 à 14:54",
+    "timestamp": 1772549662933
+  },
+  {
+    "title": "CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog",
+    "link": "https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a recently disclosed security flaw impacting Broadcom VMware Aria Operations to its Known Exploited Vulnerabilities ( KEV ) catalog, citing active exploitation in the wild.  The high-severity vulnerability, CVE-2026-22719  (CVSS score: 8.1), has been described as a case of command injection that could allow an unauthenticated attacker to execute arbitrary commands.  \"A malicious unauthenticated actor may exploit this issue to execute arbitrary commands, which may lead to remote code execution in VMware Aria Operations while support-assisted product migration is in progress,\" the company said  in an advisory released late last month.   The shortcoming was addressed, along withCVE-2026-22720, a stored cross-site scripting vulnerability, and CVE-2026-22721, a privilege escalation vulnerability that could result in administrative access. It impacts the following products -   VMware Cloud Foundatio...",
+    "status": "Mar 04, 2026",
+    "date": "04/03/2026 à 4:44",
+    "timestamp": 1772599450220
+  },
+  {
+    "title": "ThreatsDay Bulletin: DDR5 Bot Scalping, Samsung TV Tracking, Reddit Privacy Fine & More",
+    "link": "https://thehackernews.com/2026/03/threatsday-bulletin-redis-rce-ddr5-bot.html",
+    "description": "Some weeks in cybersecurity feel routine. This one doesn’t.  Several new developments surfaced over the past few days, showing how quickly the threat landscape keeps shifting. Researchers uncovered fresh activity, security teams shared new findings, and a few unexpected moves from major tech companies also drew attention.  Together, these updates offer a useful snapshot of what is happening behind the scenes in the cyber world right now. From new tactics and campaigns to security and policy changes that could affect millions of users, there is a lot unfolding at once.  Below is a quick roundup of the most notable stories making headlines this week.                      Phishing Campaign Deploys Multiple Malware Strains             Ukraine Targeted by SHADOWSNIFF, SALATSTEALER, DEAFTICKK Malware                  The Computer Emergency Response Team of Ukraine (CERT-UA) has warned  of a hacking campaign targeting Ukrainian government institutions using phishing emails containing a...",
+    "status": "Mar 05, 2026",
+    "date": "05/03/2026 à 14:14",
+    "timestamp": 1772720050257
+  },
+  {
+    "title": "Cisco Confirms Active Exploitation of Two Catalyst SD-WAN Manager Vulnerabilities",
+    "link": "https://thehackernews.com/2026/03/cisco-confirms-active-exploitation-of.html",
+    "description": "Cisco has disclosed that two more vulnerabilities affecting Catalyst SD-WAN Manager (formerly SD-WAN vManage) have come under active exploitation in the wild.  The vulnerabilities in question  are listed below -   CVE-2026-20122  (CVSS score: 7.1) - An arbitrary file overwrite vulnerability that could allow an authenticated, remote attacker to overwrite arbitrary files on the local file system. Successful exploitation requires the attacker to have valid read-only credentials with API access on the affected system.  CVE-2026-20128  (CVSS score: 5.5) - An information disclosure vulnerability that could allow an authenticated, local attacker to gain Data Collection Agent (DCA) user privileges on an affected system. Successful exploitation requires the attacker to have valid vManage credentials on the affected system.   Patches for the security defects, along with CVE-2026-20126, CVE-2026-20129, and CVE-2026-20133, were released by Cisco late last month in the following versions -   Earli...",
+    "status": "Mar 05, 2026",
+    "date": "05/03/2026 à 15:44",
+    "timestamp": 1772725450230
+  },
+  {
+    "title": "Hikvision and Rockwell Automation CVSS 9.8 Flaws Added to CISA KEV Catalog",
+    "link": "https://thehackernews.com/2026/03/hikvision-and-rockwell-automation-cvss.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added  two security flaws impacting Hikvision and Rockwell Automation products to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The critical-severity vulnerabilities are listed below -   CVE-2017-7921  (CVSS score: 9.8) - An improper authentication vulnerability affecting multiple Hikvision products that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.   CVE-2021-22681  (CVSS score: 9.8) - An insufficiently protected credentials vulnerability affecting multiple Rockwell Automation Studio 5000 Logix Designer, RSLogix 5000, and Logix Controllers that could allow an unauthorized user with network access to the controller to bypass the verification mechanism and authenticate with it, as well as alter its configuration and/or application code.    The addition of CVE-2017-7921 to the KEV catalog comes more...",
+    "status": "Mar 06, 2026",
+    "date": "06/03/2026 à 6:44",
+    "timestamp": 1772779451044
+  },
+  {
+    "title": "Iran-Linked MuddyWater Hackers Target U.S. Networks With New Dindoor Backdoor",
+    "link": "https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html",
+    "description": "New research from Broadcom's Symantec and Carbon Black Threat Hunter Team has discovered  evidence of an Iranian hacking group embedding itself in several U.S. companies' networks, including banks, airports, non-profit, and the Israeli arm of a software company.  The activity has been attributed to a state-sponsored hacking group called MuddyWater  (aka Seedworm). It's affiliated with the Iranian Ministry of Intelligence and Security (MOIS). The campaign is assessed to have begun in early February, with recent activity detected following U.S. and Israeli military strikes on Iran .  \"The software company is a supplier to the defense and aerospace industries, among others, and has a presence in Israel, with the company's Israel operation seeming to be the target in this activity,\" the security vendor said in a report shared with The Hacker News.  The attacks targeting the software company, as well as a U.S. bank and a Canadian non-profit, have been found to p...",
+    "status": "Mar 06, 2026",
+    "date": "06/03/2026 à 10:44",
+    "timestamp": 1772793850298
+  },
+  {
+    "title": "Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model",
+    "link": "https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html",
+    "description": "Anthropic on Friday said it discovered  22 new security vulnerabilities in the Firefox web browser as part of a security partnership with Mozilla.  Of these, 14 have been classified as high, seven have been classified as moderate, and one has been rated low in severity. The issues were addressed in Firefox 148 , released late last month. The vulnerabilities  were identified over a two-week period in January 2026.  The artificial intelligence (AI) company said the number of high-severity bugs identified by its Claude Opus 4.6 large language model (LLM) represents \"almost a fifth\" of all high-severity vulnerabilities that were patched in Firefox in 2025.  Anthropic said the LLM detected a use-after-free bug in the browser's JavaScript after \"just\" 20 minutes of exploration, which was then validated by a human researcher in a virtualized environment to rule out the possibility of a false positive.   \"By the end of this effort, we had scanned nearly 6,000 C++ ...",
+    "status": "Mar 07, 2026",
+    "date": "07/03/2026 à 11:44",
+    "timestamp": 1772883850333
+  },
+  {
+    "title": "OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues",
+    "link": "https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html",
+    "description": "OpenAI on Friday began rolling out Codex Security , an artificial intelligence (AI)-powered security agent that's designed to find, validate, and propose fixes for vulnerabilities.  The feature is available in a research preview to ChatGPT Pro, Enterprise, Business, and Edu customers via the Codex web with free usage for the next month.  \"It builds deep context about your project to identify complex vulnerabilities that other agentic tools miss, surfacing higher-confidence findings with fixes that meaningfully improve the security of your system while sparing you from the noise of insignificant bugs,\" the company said .  Codex Security represents an evolution of Aardvark⁠ , which OpenAI unveiled in private beta in October 2025 as a way for developers and security teams to detect and fix security vulnerabilities at scale.   Over the last 30 days, Codex Security has scanned more than 1.2 million commits across external repositories over the course of the beta, identifying ...",
+    "status": "Mar 07, 2026",
+    "date": "07/03/2026 à 16:44",
+    "timestamp": 1772901850415
+  },
+  {
+    "title": "⚡ Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware",
+    "link": "https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html",
+    "description": "Another week in cybersecurity. Another week of \"you've got to be kidding me.\"  Attackers were busy. Defenders were busy. And somewhere in the middle, a whole lot of people had a very bad Monday morning. That's kind of just how it goes now.  The good news? There were some actual wins this week. Real ones. The kind where the good guys showed up, did the work, and made a dent. It doesn't always happen, so when it does, it's worth noting.  The bad news? For every win, there's a fresh headache waiting right behind it. New tricks, old tricks dressed up in new clothes, and a few things that'll make you want to go touch grass and never log back in. But you will. We all do. So here's everything that mattered this week — the wins, the warnings, and the stuff you really shouldn't ignore.  ⚡ Threat of the Week  Tycoon 2FA and LeakBase Operations Dismantled  — The infrastructure hosting the Tycoon2FA service, which Europol said was among the largest advers...",
+    "status": "Mar 09, 2026",
+    "date": "09/03/2026 à 14:14",
+    "timestamp": 1773065650360
+  },
+  {
+    "title": "CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited",
+    "link": "https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  three security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation.  The vulnerability list is as follows -   CVE-2021-22054  (CVSS score: 7.5) - A server-side request forgery ( SSRF ) vulnerability in Omnissa Workspace One UEM (formerly VMware Workspace One UEM) that could allow a malicious actor with network access to UEM to send requests without authentication  and to gain access to sensitive information.  CVE-2025-26399  (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in the AjaxProxy component of SolarWinds Web Help Desk that could allow an attacker to run commands on the host machine.  CVE-2026-1603  (CVSS score: 8.6) - An authentication bypass using an alternate path or channel vulnerability in Ivanti Endpoint Manager that could allow a remote unauthenticated attacker to leak specific stored credential data.    The addition o...",
+    "status": "Mar 10, 2026",
+    "date": "10/03/2026 à 6:44",
+    "timestamp": 1773125051819
+  },
+  {
+    "title": "New \"LeakyLooker\" Flaws in Google Looker Studio Could Enable Cross-Tenant SQL Queries",
+    "link": "https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html",
+    "description": "Cybersecurity researchers have disclosed nine cross-tenant vulnerabilities in Google Looker Studio that could have permitted attackers to run arbitrary SQL queries on victims' databases and exfiltrate sensitive data within organizations' Google Cloud environments.  The shortcomings have been collectively named LeakyLooker  by Tenable. There is no evidence that the vulnerabilities were exploited in the wild. Following responsible disclosure in June 2025, the issues have been addressed by Google.  The list of security flaws is as follows -   Cross Tenant Unauthorized Access - Zero-Click SQL Injection on Database Connectors  Cross Tenant Unauthorized Access - Zero-Click SQL Injection Through Stored Credentials  Cross Tenant SQL Injection on BigQuery Through Native Functions  Cross-Tenant Data Sources Leak With Hyperlinks  Cross Tenant SQL injection on Spanner and BigQuery Through Custom Queries on a Victim’s Data Source  Cross Tenant SQL Injection on BigQuery and Spanner Through ...",
+    "status": "Mar 10, 2026",
+    "date": "10/03/2026 à 13:44",
+    "timestamp": 1773150250820
+  },
+  {
+    "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
+    "link": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
+    "description": "Cybersecurity researchers are calling attention to a new campaign where threat actors are abusing FortiGate Next-Generation Firewall (NGFW) appliances as entry points to breach victim networks.   The activity involves the exploitation of recently disclosed security vulnerabilities or weak credentials to extract configuration files containing service account credentials and network topology information, SentinelOne said in a report published today. The security outfit said the campaign has singled out environments tied to healthcare, government, and managed service providers.  \"FortiGate network appliances have considerable access to the environments they were installed to protect,\" security researchers Alex Delamotte, Stephen Bromfield, Mary Braden Murphy, and Amey Patne said . \"In many configurations, this includes service accounts which are connected to the authentication infrastructure, such as Active Directory (AD) and Lightweight Directory Access Protocol (LDAP)....",
+    "status": "Mar 10, 2026",
+    "date": "10/03/2026 à 16:44",
+    "timestamp": 1773161050387
+  },
+  {
+    "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
+    "link": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+    "description": "Microsoft on Tuesday released patches for a set of 84 new security vulnerabilities  affecting various software components, including two that have been listed as publicly known.  Of these, eight are rated Critical, and 76 are rated Important in severity. Forty-six of the patched vulnerabilities relate to privilege escalation, followed by 18 remote code execution, 10 information disclosure, four spoofing, four denial-of-service, and two security feature bypass flaws.  The fixes are in addition to 10 vulnerabilities  that have been addressed in its Chromium-based Edge browser since the release of the February 2026 Patch Tuesday update .  The two publicly disclosed zero-days are CVE-2026-26127  (CVSS score: 7.5), a denial-of-service vulnerability in .NET, and CVE-2026-21262  (CVSS score: 8.8), an elevation of privilege vulnerability in SQL Server.   The vulnerability with the highest CVSS score in this month's update is a critical remote code execution flaw in the Microsoft Devices ...",
+    "status": "Mar 11, 2026",
+    "date": "11/03/2026 à 9:44",
+    "timestamp": 1773222250466
+  },
+  {
+    "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
+    "link": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+    "description": "SAP has released  security updates to address two critical security flaws that could be exploited to achieve arbitrary code execution on affected systems.  The vulnerabilities in question listed below -   CVE-2019-17571  (CVSS score: 9.8) - A code injection vulnerability in SAP Quotation Management Insurance application (FS-QUO)  CVE-2026-27685  (CVSS score: 9.1) - An insecure deserialization vulnerability in SAP NetWeaver Enterprise Portal Administration   \"The application uses an outdated artifact of Apache Log4j 1.2.17 that is vulnerable to CVE-2019-17571,\" SAP security company Onapsis said . \"It allows an unprivileged attacker to execute arbitrary code remotely on the server, causing high impact on confidentiality, integrity, and availability of the application.\"   CVE-2026-27685, on the other hand, stems from missing or insufficient validation during the deserialization of uploaded content, which could allow an attacker to upload untrusted or malicious content...",
+    "status": "Mar 11, 2026",
+    "date": "11/03/2026 à 12:44",
+    "timestamp": 1773233050366
+  },
+  {
+    "title": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+    "link": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+    "description": "Cybersecurity researchers have disclosed details of two now-patched security flaws in the n8n  workflow automation platform, including two critical bugs that could result in arbitrary command execution.  The vulnerabilities are listed below -   CVE-2026-27577  (CVSS score: 9.4) - Expression sandbox escape leading to remote code execution (RCE)  CVE-2026-27493  (CVSS score: 9.5) - Unauthenticated expression evaluation via n8n's Form nodes   \"CVE-2026-27577 is a sandbox escape in the expression compiler: a missing case in the AST rewriter lets process slip through untransformed, giving any authenticated expression full RCE,\" Pillar Security researcher Eilon Cohen, who discovered and reported the issues, said  in a report shared with The Hacker News.   The cybersecurity company described CVE-2026-27493 as a \"double-evaluation bug\" in n8n's Form nodes that could be abused for expression injection by taking advantage of the fact that the form endpoints are publi...",
+    "status": "Mar 11, 2026",
+    "date": "11/03/2026 à 15:14",
+    "timestamp": 1773242050382
+  },
+  {
+    "title": "CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed",
+    "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added  a critical security flaw impacting n8n to its Known Exploited Vulnerabilities ( KEV ) catalog, based on evidence of active exploitation.  The vulnerability, tracked as CVE-2025-68613  (CVSS score: 9.9), concerns a case of expression injection that leads to remote code execution. The security shortcoming was patched by n8n in December 2025  in versions 1.120.4, 1.121.1, and 1.122.0. CVE-2025-68613 is the first n8n vulnerability to be placed in the KEV catalog.  \"N8n contains an improper control of dynamically managed code resources vulnerability in its workflow expression evaluation system that allows for remote code execution,\" CISA said.  According to the maintainers of the workflow automation platform, the vulnerability could be weaponized by an authenticated attacker to execute arbitrary code with the privileges of the n8n process.   Successful exploitation of the flaw could result in a c...",
+    "status": "Mar 12, 2026",
+    "date": "12/03/2026 à 5:44",
+    "timestamp": 1773294250509
+  },
+  {
+    "title": "Apple Issues Security Updates for Older iOS Devices Targeted by Coruna WebKit Exploit",
+    "link": "https://thehackernews.com/2026/03/apple-issues-security-updates-for-older.html",
+    "description": "Apple on Wednesday backported fixes for a security flaw in iOS, iPadOS, and macOS Sonoma to older versions after it was found to be used as part of the Coruna exploit kit .  The vulnerability, tracked as CVE-2023-43010 , relates to an unspecified vulnerability in WebKit that could result in memory corruption when processing maliciously crafted web content. The iPhone maker said the issue was addressed with improved handling.   \"This fix associated with the Coruna exploit was shipped in iOS 17.2 on December 11th, 2023,\" Apple said in an advisory. \"This update brings that fix to devices that cannot update to the latest iOS version.\"   Fixes for CVE-2023-43010 were originally released by Apple in the following versions -   iOS 17.2 and iPadOS 17.2  macOS Sonoma 14.2  Safari 17.2   The latest round of fixes brings it to older versions of iOS and iPadOS -   iOS 15.8.7 and iPadOS 15.8.7  - iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Ai...",
+    "status": "Mar 12, 2026",
+    "date": "12/03/2026 à 10:14",
+    "timestamp": 1773310450423
+  },
+  {
+    "title": "ThreatsDay Bulletin: OAuth Trap, EDR Killer, Signal Phishing, Zombie ZIP, AI Platform Hack & More",
+    "link": "https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html",
+    "description": "Another Thursday, another pile of weird security stuff that somehow happened in just seven days. Some of it is clever. Some of it is lazy. A few bits fall into that uncomfortable category of “yeah… this is probably going to show up in real incidents sooner than we’d like.”  The pattern this week feels familiar in a slightly annoying way. Old tricks are getting polished. New research shows how flimsy certain assumptions really are. A couple of things that make you stop mid-scroll and think, “wait… people are actually pulling this off?”  There’s also the usual mix of strange corners of the ecosystem doing strange things — infrastructure behaving a little too professionally for comfort, tools showing up where they absolutely shouldn’t, and a few cases where the weakest link is still just… people clicking stuff they probably shouldn’t.  Anyway. If you’ve got five minutes and a mild curiosity about what attackers, researchers, and the broader internet gremlins were up to lately, this week’...",
+    "status": "Mar 12, 2026",
+    "date": "12/03/2026 à 13:44",
+    "timestamp": 1773323050779
+  },
+  {
+    "title": "Veeam Patches 7 Critical Backup & Replication Flaws Allowing Remote Code Execution",
+    "link": "https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html",
+    "description": "Veeam has released security updates to address multiple critical vulnerabilities in its Backup & Replication software that, if successfully exploited, could result in remote code execution.  The vulnerabilities  are as follows -   CVE-2026-21666  (CVSS score: 9.9) - A vulnerability that allows an authenticated domain user to perform remote code execution on the Backup Server.  CVE-2026-21667  (CVSS score: 9.9) - A vulnerability that allows an authenticated domain user to perform remote code execution on the Backup Server.  CVE-2026-21668  (CVSS score: 8.8) - A vulnerability that allows an authenticated domain user to bypass restrictions and manipulate arbitrary files on a Backup Repository.  CVE-2026-21672  (CVSS score: 8.8) - A vulnerability that allows local privilege escalation on Windows-based Veeam Backup & Replication servers.  CVE-2026-21708  (CVSS score: 9.9) - A vulnerability that allows a Backup Viewer to perform remote code execution as the postgres user.    The sho...",
+    "status": "Mar 13, 2026",
+    "date": "13/03/2026 à 4:44",
+    "timestamp": 1773377050760
+  },
+  {
+    "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
+    "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
+    "description": "Cybersecurity researchers have disclosed multiple security vulnerabilities within the Linux kernel's AppArmor  module that could be exploited by unprivileged users to circumvent kernel protections, escalate to root, and undermine container isolation guarantees.  The nine confused deputy vulnerabilities have been collectively codenamed CrackArmor  by the Qualys Threat Research Unit (TRU). The cybersecurity company said the issue has existed since 2017. No CVE identifiers have been assigned to the shortcomings.  AppArmor is a Linux security module that provides mandatory access control (MAC) and secures the operating system against external or internal threats by preventing known and unknown application flaws from being exploited. It has been included in the mainline Linux kernel since version 2.6.36.   \"This 'CrackArmor' advisory exposes a confused deputy flaw  allowing unprivileged users to manipulate security profiles via pseudo-files, bypass user-namespace restricti...",
+    "status": "Mar 13, 2026",
+    "date": "13/03/2026 à 8:44",
+    "timestamp": 1773391450599
+  },
+  {
+    "title": "Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8",
+    "link": "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html",
+    "description": "Google on Thursday released security updates for its Chrome web browser to address two high-severity vulnerabilities that it said have been exploited in the wild.  The list of vulnerabilities is as follows -   CVE-2026-3909  (CVSS score: 8.8) - An out-of-bounds write vulnerability in the Skia 2D graphics library that allows a remote attacker to perform out-of-bounds memory access via a crafted HTML page.  CVE-2026-3910  (CVSS score: 8.8) - An inappropriate implementation vulnerability in the V8 JavaScript and WebAssembly engine that allows a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.   Both vulnerabilities were discovered and reported by Google itself on March 10, 2026. As is customary in these cases, no details are available about how the issues are being abused in the wild and who is behind the efforts. This is done so as to prevent other threat actors from exploiting the issues.   \"Google is aware that exploits for both CVE-2026-3909 an...",
+    "status": "Mar 13, 2026",
+    "date": "13/03/2026 à 9:44",
+    "timestamp": 1773395050692
+  },
+  {
+    "title": "⚡ Weekly Recap: Chrome 0-Days, Router Botnets, AWS Breach, Rogue AI Agents & More",
+    "link": "https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html",
+    "description": "Some weeks in security feel normal. Then you read a few tabs and get that immediate “ah, great, we’re doing this now” feeling.  This week has that energy. Fresh messes, old problems getting sharper, and research that stops feeling theoretical real fast. A few bits hit a little too close to real life, too. There’s a good mix here: weird abuse of trusted stuff, quiet infrastructure ugliness, sketchy chatter, and the usual reminder that attackers will use anything that works.  Scroll on. You’ll see what I mean.  ⚡ Threat of the Week  Google Patches 2 Actively Exploited Chrome 0-Days  — Google released security updates for its Chrome web browser to address two high-severity vulnerabilities that it said have been exploited in the wild. The vulnerabilities related to an out-of-bounds write vulnerability in the Skia 2D graphics library (CVE-2026-3909) and an inappropriate implementation vulnerability in the V8 JavaScript and WebAssembly engine (CVE-2026-3910) that could result in out-of-boun...",
+    "status": "Mar 16, 2026",
+    "date": "16/03/2026 à 14:44",
+    "timestamp": 1773672250486
+  },
+  {
+    "title": "CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths",
+    "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added  a medium-severity security flaw impacting Wing FTP to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation.  The vulnerability, CVE-2025-47813  (CVSS score: 4.3), is an information disclosure vulnerability that leaks the installation path of the application under certain conditions.  \"Wing FTP Server contains a generation of error messages containing sensitive information vulnerability when using a long value in the UID cookie,\" CISA said.  The shortcoming affects all versions of the software prior to and including version 7.4.3. The issue was addressed in version 7.4.4, shipped in May following a responsible disclosure by RCE Security researcher Julien Ahrens.   It's worth noting that version 7.4.4 also patches CVE-2025-47812  (CVSS score: 10.0), another critical bug in the same product  that allows for remote code execution. As of July 2025, the vuln...",
+    "status": "Mar 17, 2026",
+    "date": "17/03/2026 à 5:44",
+    "timestamp": 1773726250873
+  },
+  {
+    "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
+    "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
+    "description": "Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelligence (AI) code execution environments using domain name system (DNS) queries.  In a report published Monday, BeyondTrust revealed  that Amazon Bedrock AgentCore Code Interpreter's sandbox mode permits outbound DNS queries that an attacker can exploit to enable interactive shells and bypass network isolation. The issue, which does not have a CVE identifier, carries a CVSS score of 7.5 out of 10.0.  Amazon Bedrock AgentCore Code Interpreter  is a fully managed service that enables AI agents to securely execute code in isolated sandbox environments , such that agentic workloads cannot access external systems. It was launched by Amazon in August 2025.  The fact that the service allows DNS queries despite \"no network access\" configuration can allow \"threat actors to establish command-and-control channels and data exfiltration over DNS in certain scenar...",
+    "status": "Mar 17, 2026",
+    "date": "17/03/2026 à 16:44",
+    "timestamp": 1773765850428
+  },
+  {
+    "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
+    "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+    "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges.  The vulnerability, tracked as CVE-2026-32746 , carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set Local Characters (SLC) suboption handler that results in a buffer overflow, ultimately paving the way for code execution.  Israeli cybersecurity company Dream, which discovered and reported the flaw on March 11, 2026, said it affects all versions of the Telnet service implementation through 2.7. A fix for the vulnerability is expected to be available no later than April 1, 2026.   \"An unauthenticated remote attacker can exploit this by sending a specially crafted message during the initial connection handshake — before any login prompt appears,\" Dream said  in an alert. \"Successful...",
+    "status": "Mar 18, 2026",
+    "date": "18/03/2026 à 5:14",
+    "timestamp": 1773810850613
+  },
+  {
+    "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
+    "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+    "description": "Apple on Tuesday released its first round of Background Security Improvements  to address a security flaw in WebKit that affects iOS, iPadOS, and macOS.  The vulnerability, tracked as CVE-2026-20643  (CVSS score: N/A), has been described as a cross-origin issue in WebKit's Navigation API that could be exploited to bypass the same-origin policy when processing maliciously crafted web content.  The flaw affects iOS 26.3.1, iPadOS 26.3.1, macOS 26.3.1, and macOS 26.3.2. It has been addressed with improved input validation in iOS 26.3.1 (a), iPadOS 26.3.1 (a), macOS 26.3.1 (a), and macOS 26.3.2 (a). Security researcher Thomas Espach has been credited with discovering and reporting the shortcoming.  Apple notes  that Background Security Improvements are meant for delivering lightweight security releases for components such as the Safari browser, WebKit framework stack, and other system libraries through smaller, ongoing security patches rather than issuing them as part of larger softwa...",
+    "status": "Mar 18, 2026",
+    "date": "18/03/2026 à 6:44",
+    "timestamp": 1773816250511
+  },
+  {
+    "title": "Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit",
+    "link": "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
+    "description": "A high-severity security flaw affecting default installations of Ubuntu Desktop versions 24.04 and later could be exploited to escalate privileges to the root level.  Tracked as CVE-2026-3888  (CVSS score: 7.8), the issue could allow an attacker to seize control of a susceptible system.  \"This flaw (CVE-2026-3888) allows an unprivileged local attacker to escalate privileges to full root access through the interaction of two standard system components: snap-confine  and systemd-tmpfiles,\" the Qualys Threat Research Unit (TRU) said . \"While the exploit requires a specific time-based window (10–30 days), the resulting impact is a complete compromise of the host system.\"   The problem, Qualys noted, stems from the unintended interaction of snap-confine, which manages execution environments for snap applications by creating a sandbox, and systemd-tmpfiles, which automatically cleans up temporary files and directories (e.g.,/tmp, /run, and /var/tmp) older than a defined ...",
+    "status": "Mar 18, 2026",
+    "date": "18/03/2026 à 8:14",
+    "timestamp": 1773821650620
+  },
+  {
+    "title": "9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors",
+    "link": "https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html",
+    "description": "Cybersecurity researchers have warned about the risks posed by low-cost IP KVM (Keyboard, Video, Mouse over Internet Protocol) devices, which can grant attackers extensive control over compromised hosts.  The nine vulnerabilities, discovered by Eclypsium , span four different products from GL-iNet Comet RM-1, Angeet/Yeeso ES3 KVM, Sipeed NanoKVM, and JetKVM. The most severe of them allow unauthenticated actors to gain root access or run malicious code.  \"The common themes are damning: missing firmware signature validation, no brute-force protection, broken access controls, and exposed debug interfaces,\" researchers Paul Asadoorian and Reynaldo Vasquez Garcia said  in an analysis.   With IP KVM devices enabling remote access to the target machine's keyboard, video output, and mouse input at the BIOS/UEFI level, successful exploitation of vulnerabilities in these products can expose systems to potential takeover risks, undermining security controls put in place. The list...",
+    "status": "Mar 18, 2026",
+    "date": "18/03/2026 à 11:44",
+    "timestamp": 1773834250478
+  },
+  {
+    "title": "Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root Access",
+    "link": "https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html",
+    "description": "Amazon Threat Intelligence is warning of an active Interlock  ransomware campaign that's exploiting a recently disclosed critical security flaw in Cisco Secure Firewall Management Center (FMC) Software.  The vulnerability in question is CVE-2026-20131  (CVSS score: 10.0), a case of insecure deserialization of user-supplied Java byte stream, which could allow an unauthenticated, remote attacker to bypass authentication and execute arbitrary Java code as root on an affected device.  According to data gleaned from the tech giant's MadPot  global sensor network , the security flaw is said to have been exploited as a zero-day since January 26, 2026, more than a month before it was publicly disclosed by Cisco.  \"This wasn't just another vulnerability exploit; Interlock had a zero-day in their hands, giving them a week's head start to compromise organizations before defenders even knew to look. Upon making this discovery, we shared our findings with Cisco to help support...",
+    "status": "Mar 18, 2026",
+    "date": "18/03/2026 à 16:14",
+    "timestamp": 1773850450752
+  },
+  {
+    "title": "CISA Warns of Zimbra, SharePoint Flaw Exploits; Cisco Zero-Day Hit in Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged government agencies to apply patches for two security flaws impacting Synacor Zimbra Collaboration Suite  (ZCS) and Microsoft Office SharePoint , stating they have been actively exploited in the wild.  The vulnerabilities in question are as follows -   CVE-2025-66376  (CVSS score: 7.2) - A stored cross-site scripting vulnerability in the Classic UI of ZCS, where attackers could abuse Cascading Style Sheets (CSS) @import directives in an HTML e-mail message. (Fixed in versions 10.0.18 and 10.1.13 in November 2025 )  CVE-2026-20963  (CVSS score: 8.8) - A deserialization of untrusted data vulnerability in Microsoft Office SharePoint that allows an unauthorized attacker to execute code over a network. (Fixed in January 2026 )    There are currently no public reports referencing the exploitation of aforementioned flaws, who may be exploiting them, and the scale of such efforts. In light of active exploitation, Feder...",
+    "status": "Mar 19, 2026",
+    "date": "19/03/2026 à 6:14",
+    "timestamp": 1773900850489
+  },
+  {
+    "title": "DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full Device Takeover",
+    "link": "https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html",
+    "description": "A new exploit kit for Apple iOS devices designed to steal sensitive data from is being wielded by multiple threat actors since at least November 2025, according to reports from Google Threat Intelligence Group  (GTIG), iVerify , and Lookout .  According to GTIG, multiple commercial surveillance vendors and suspected state-sponsored actors have utilized the full-chain exploit kit, codenamed DarkSword , in distinct campaigns targeting Saudi Arabia, Turkey, Malaysia, and Ukraine.   The discovery of DarkSword makes it the second iOS exploit kit, after Coruna , to be discovered within the span of a month. The kit is designed to target iPhones running iOS versions between iOS 18.4 and 18.7, and is said to have been deployed by a suspected Russian espionage group named UNC6353 in attacks targeting Ukrainian users.  It's worth noting that UNC6353 has also been linked to the use of the Coruna in attacks aimed at Ukrainians by injecting the JavaScript framework into compromised websites.  ...",
+    "status": "Mar 19, 2026",
+    "date": "19/03/2026 à 9:44",
+    "timestamp": 1773913450533
+  },
+  {
+    "title": "ThreatsDay Bulletin: FortiGate RaaS, Citrix Exploits, MCP Abuse, LiveChat Phish & More",
+    "link": "https://thehackernews.com/2026/03/threatsday-bulletin-fortigate-raas.html",
+    "description": "ThreatsDay Bulletin is back on The Hacker News, and this week feels off in a familiar way. Nothing loud, nothing breaking everything at once. Just a lot of small things that shouldn’t work anymore but still do.  Some of it looks simple, almost sloppy, until you see how well it lands. Other bits feel a little too practical, like they’re already closer to real-world use than anyone wants to admit. And the background noise is getting louder again, the kind people usually ignore.  A few stories are clever in a bad way. Others are just frustratingly avoidable. Overall, it feels like quiet pressure is building in places that matter.  Skim it or read it properly, but don’t skip this one.                     Emerging RaaS exploiting FortiGate flaws             The Gentlemen RaaS Detailed                  Group-IB has shed light on the various tactics adopted by The Gentlemen, a nascent Ransomware-as-a-Service (RaaS) operation that consists of about 20 members. It originated f...",
+    "status": "Mar 19, 2026",
+    "date": "19/03/2026 à 14:44",
+    "timestamp": 1773931450599
+  },
+  {
+    "title": "Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover",
+    "link": "https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html",
+    "description": "Sansec is warning of a critical security flaw in Magento's REST API that could allow unauthenticated attackers to upload arbitrary executables and achieve code execution and account takeover.  The vulnerability has been codenamed PolyShell  by Sansec owing to the fact that the attack hinges on disguising malicious code as an image. There is no evidence that the shortcoming has been exploited in the wild. The unrestricted file upload flaw affects all Magento Open Source and Adobe Commerce versions up to 2.4.9-alpha2.  The Dutch security firm said the problem stems from the fact that Magento's REST API accepts file uploads as part of the custom options for the cart item.  \"When a product option has type 'file,' Magento processes an embedded file_info object containing base64-encoded file data, a MIME type, and a filename,\" it said . \"The file is written to pub/media/custom_options/quote/ on the server.\"  Depending on the web server configuration, the ...",
+    "status": "Mar 20, 2026",
+    "date": "20/03/2026 à 11:44",
+    "timestamp": 1774007050676
+  },
+  {
+    "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
+    "description": "A critical security flaw impacting Langflow has come under active exploitation  within 20 hours of public disclosure, highlighting the speed at which threat actors weaponize newly published vulnerabilities.  The security defect, tracked as CVE-2026-33017  (CVSS score: 9.3), is a case of missing authentication combined with code injection that could result in remote code execution.  \"The POST /api/v1/build_public_tmp/{flow_id}/flow endpoint allows building public flows without requiring authentication,\" according to Langflow's advisory for the flaw.  \"When the optional data parameter is supplied, the endpoint uses attacker-controlled flow data (containing arbitrary Python code in node definitions) instead of the stored flow data from the database. This code is passed to exec() with zero sandboxing, resulting in unauthenticated remote code execution.\"  The vulnerability affects all versions of the open-source artificial intelligence (AI) platform prior to and inc...",
+    "status": "Mar 20, 2026",
+    "date": "20/03/2026 à 15:44",
+    "timestamp": 1774021450582
+  },
+  {
+    "title": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets",
+    "link": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html",
+    "description": "Trivy, a popular open-source vulnerability scanner maintained by Aqua Security, was compromised a second time within the span of a month to deliver malware that stole sensitive CI/CD secrets.  The latest incident impacted GitHub Actions \" aquasecurity/trivy-action \" and \" aquasecurity/setup-trivy ,\" which are used to scan Docker container images for vulnerabilities and set up GitHub Actions workflow with a specific version of the scanner, respectively.  \"We identified that an attacker force-pushed 75 out of 76 version tags in the aquasecurity/trivy-action repository, the official GitHub Action for running Trivy vulnerability scans in CI/CD pipelines,\" Socket security researcher Philipp Burckhardt said . \"These tags were modified to serve a malicious payload, effectively turning trusted version references into a distribution mechanism for an infostealer.\"  The payload executes within GitHub Actions runners and aims to extract valuable developer s...",
+    "status": "Mar 20, 2026",
+    "date": "20/03/2026 à 18:14",
+    "timestamp": 1774030451010
+  },
+  {
+    "title": "CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026",
+    "link": "https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added  five security flaws impacting Apple, Craft CMS, and Laravel Livewire to its Known Exploited Vulnerabilities ( KEV ) catalog, urging federal agencies to patch them by April 3, 2026.  The vulnerabilities that have come under exploitation are listed below -   CVE-2025-31277  (CVSS score: 8.8) - A vulnerability in Apple WebKit that could result in memory corruption when processing maliciously crafted web content. (Fixed in July 2025)  CVE-2025-43510  (CVSS score: 7.8) - A memory corruption vulnerability in Apple's kernel component that could allow a malicious application to cause unexpected changes in memory shared between processes. (Fixed in December 2025)  CVE-2025-43520  (CVSS score: 8.8) - A memory corruption vulnerability in Apple's kernel component that could allow a malicious application to cause unexpected system termination or write kernel memory. (Fixed in December 2025)  CVE-2025-32432 ...",
+    "status": "Mar 21, 2026",
+    "date": "21/03/2026 à 8:44",
+    "timestamp": 1774082650807
+  },
+  {
+    "title": "Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager",
+    "link": "https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html",
+    "description": "Oracle has released  security updates to address a critical security flaw impacting Identity Manager and Web Services Manager that could be exploited to achieve remote code execution.  The vulnerability, tracked as CVE-2026-21992 , carries a CVSS score of 9.8 out of a maximum of 10.0.  \"This vulnerability is remotely exploitable without authentication,\" Oracle said  in an advisory. \"If successfully exploited, this vulnerability may result in remote code execution.\"  CVE-2026-21992 affects the following versions -   Oracle Identity Manager versions 12.2.1.4.0 and 14.1.2.1.0  Oracle Web Services Manager versions 12.2.1.4.0 and 14.1.2.1.0    According to a description  of the flaw in the NIST National Vulnerability Database (NVD), it's \"easily exploitable\" and could allow an unauthenticated attacker with network access via HTTP to compromise Oracle Identity Manager and Oracle Web Services Manager. This, in turn, can result in the successful takeover of s...",
+    "status": "Mar 21, 2026",
+    "date": "21/03/2026 à 10:44",
+    "timestamp": 1774089850709
+  },
+  {
+    "title": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems",
+    "link": "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
+    "description": "Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf.  The cybersecurity company said  it observed malicious activity starting the week of March 9, 2026, in customer environments that's consistent with the exploitation of CVE-2025-32975  on unpatched SMA systems exposed to the internet. It's currently not known what the end goals of the attack are.  CVE-2025-32975 (CVSS score: 10.0) refers to an authentication bypass vulnerability  that allows attackers to impersonate legitimate users without valid credentials. Successful exploitation of the flaw could facilitate the complete takeover of administrative accounts. The issue was patched by Quest in May 2025.  In the malicious activity detected by Arctic Wolf, threat actors are believed to have weaponized the vulnerability to seize control of administrative accounts and execute remote commands to drop Base64-encoded payloads ...",
+    "status": "Mar 23, 2026",
+    "date": "23/03/2026 à 6:44",
+    "timestamp": 1774248250751
+  }
+]

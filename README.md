@@ -53,12 +53,6 @@ Bot Veille Techno/
 └── data/caches/            # Données de cache persistées
 ```
 
-## Notes importantes
-
-- Les IDs Discord (serveurs/salons/rôles) sont actuellement définis en dur dans `main.js` et certaines commandes.
-- Si le token a déjà été exposé, régénère-le immédiatement dans le portail Discord Developer.
-- `.env` est ignoré via `.gitignore` pour éviter toute fuite de secret.
-
 ## Dépannage rapide
 
 - Si le bot ne se connecte pas: vérifier `DISCORD_TOKEN` dans `.env`.

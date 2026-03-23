@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+    "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+    "description": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw, tracked as CVE-2026-25049  (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613  (CVSS score: 9.9), another critical defect that was patched by n8n in December 2025.  \"Additional exploits in the expression evaluation of n8n have been identified and patched following CVE-2025-68613,\" n8n's maintainers said  in an advisory released Wednesday.  \"An authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n.\"   The issue affects the following versions -   <1.123.17 (Fixed in 1.123.17)  <2.5.2 (Fixed in 2.5.2)",
+    "status": "Feb 05, 2026",
+    "date": "07/02/2026 à 15:24",
+    "timestamp": 1770477845045
+  },
+  {
+    "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
+    "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
+    "description": "OpenClaw (formerly Moltbot and Clawdbot) has announced  that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader efforts to bolster the security of the agentic ecosystem.  \"All skills published to ClawHub are now scanned using VirusTotal's threat intelligence, including their new Code Insight capability,\" OpenClaw's founder Peter Steinberger, along with Jamieson O'Reilly and Bernardo Quintero said. \"This provides an additional layer of security for the OpenClaw community.\"  The process essentially entails creating a unique SHA-256 hash for every skill and cross checking it against VirusTotal's database for a match. If it's not found, the skill bundle is uploaded to the malware scanning tool for further analysis using VirusTotal Code Insight .  Skills that have a \"benign\" Code Insight verdict are automatically approved by ClawHub, while those marke...",
+    "status": "Feb 08, 2026",
+    "date": "08/02/2026 à 7:54",
+    "timestamp": 1770537262513
+  },
+  {
+    "title": "TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure",
+    "link": "https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html",
+    "description": "Cybersecurity researchers have called attention to a \"massive campaign\" that has systematically targeted cloud native environments to set up malicious infrastructure for follow-on exploitation.  The activity, observed around December 25, 2025, and described as \"worm-driven,\" leveraged exposed Docker APIs, Kubernetes clusters, Ray dashboards, and Redis servers, along with the recently disclosed React2Shell  (CVE-2025-55182, CVSS score: 10.0) vulnerability. The campaign has been attributed to a threat cluster known as TeamPCP  (aka DeadCatx3, PCPcat, PersyPCP, and ShellForce).  TeamPCP is known to be active since at least November 2025, with the first instance of Telegram activity dating back to July 30, 2025. The TeamPCP Telegram channel currently has over 700 members, where the group publishes stolen data from diverse victims across Canada, Serbia, South Korea, the U.A.E., and the U.S. Details of the threat actor were first documented  by Beelzebub in December 2025...",
+    "status": "Feb 09, 2026",
+    "date": "09/02/2026 à 8:54",
+    "timestamp": 1770627262457
+  },
+  {
+    "title": "Dutch Authorities Confirm Ivanti Zero-Day Exploit Exposed Employee Contact Data",
+    "link": "https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html",
+    "description": "The Netherlands' Dutch Data Protection Authority (AP) and the Council for the Judiciary confirmed both agencies (Rvdr) have disclosed that their systems were impacted by cyber attacks that exploited the recently disclosed security flaws in Ivanti Endpoint Manager Mobile (EPMM), according to a notice sent to the country's parliament on Friday.  \"On January 29, the National Cyber Security Center (NCSC) was informed by the supplier of vulnerabilities in EPMM,\" the Dutch authorities said . \"EPMM is used to manage mobile devices, apps, and content, including their security.\"  \"It is now known that work-related data of AP employees, such as names, business email addresses, and telephone numbers, have been accessed by unauthorized persons.\"   The development comes as the European Commission also revealed that its central infrastructure managing mobile devices \"identified traces\" of a cyber attack that may have resulted in access to names and mo...",
+    "status": "Feb 10, 2026",
+    "date": "10/02/2026 à 8:24",
+    "timestamp": 1770711862906
+  },
+  {
+    "title": "Warlock Ransomware Breaches SmarterTools Through Unpatched SmarterMail Server",
+    "link": "https://thehackernews.com/2026/02/warlock-ransomware-breaches.html",
+    "description": "SmarterTools confirmed last week that the Warlock (aka Storm-2603) ransomware gang breached its network by exploiting an unpatched SmarterMail instance.  The incident took place on January 29, 2026, when a mail server that was not updated to the latest version was compromised, the company's Chief Commercial Officer, Derek Curtis, said.  \"Prior to the breach, we had approximately 30 servers/VMs with SmarterMail installed throughout our network,\" Curtis explained . \"Unfortunately, we were unaware of one VM, set up by an employee, that was not being updated. As a result, that mail server was compromised, which led to the breach.\"  However, SmarterTools emphasized that the breach did not affect its website, shopping cart, My Account portal, and several other services, and that no business applications or account data were affected or compromised.   About 12 Windows servers on the company's office network, as well as a secondary data center used for quality cont...",
+    "status": "Feb 10, 2026",
+    "date": "10/02/2026 à 10:54",
+    "timestamp": 1770720862450
+  },
+  {
+    "title": "From Ransomware to Residency: Inside the Rise of the Digital Parasite",
+    "link": "https://thehackernews.com/2026/02/from-ransomware-to-residency-inside.html",
+    "description": "Are ransomware and encryption still the defining signals of modern cyberattacks, or has the industry been too fixated on noise while missing a more dangerous shift happening quietly all around them?  According to Picus Labs’ new Red Report 2026,  which analyzed over 1.1 million malicious files and mapped 15.5 million adversarial actions observed across 2025, attackers are no longer optimizing for disruption. Instead, their goal is now long-term, invisible access.  To be clear, ransomware isn’t going anywhere, and adversaries continue to innovate. But the data shows a clear strategic pivot away from loud, destructive attacks toward techniques designed to evade detection, persist inside environments, and quietly exploit identity and trusted infrastructure. Rather than breaking in and burning systems down, today’s attackers increasingly behave like Digital Parasites. They live inside the host, feed on credentials and services, and remain undetected for as long as possible.  Public attent...",
+    "status": "Feb 10, 2026",
+    "date": "10/02/2026 à 14:24",
+    "timestamp": 1770733462494
+  },
+  {
+    "title": "Reynolds Ransomware Embeds BYOVD Driver to Disable EDR Security Tools",
+    "link": "https://thehackernews.com/2026/02/reynolds-ransomware-embeds-byovd-driver.html",
+    "description": "Cybersecurity researchers have disclosed details of an emergent ransomware family dubbed Reynolds  that comes embedded with a built-in bring your own vulnerable driver (BYOVD) component for defense evasion purposes within the ransomware payload itself.  BYOVD refers to an adversarial technique  that abuses legitimate but flawed driver software to escalate privileges and disable Endpoint Detection and Response (EDR) solutions so that malicious activities go unnoticed. The strategy has been adopted  by many ransomware groups  over the years.  \"Normally, the BYOVD defense evasion component of an attack would involve a distinct tool that would be deployed on the system prior to the ransomware payload in order to disable security software,\" the Symantec and Carbon Black Threat Hunter Team said  in a report shared with The Hacker News. \"However, in this attack, the vulnerable driver (an NsecSoft NSecKrnl driver) was bundled with the ransomware itself.\"  Broadcom's ...",
+    "status": "Feb 10, 2026",
+    "date": "10/02/2026 à 14:54",
+    "timestamp": 1770735262365
+  },
+  {
+    "title": "ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories",
+    "link": "https://thehackernews.com/2025/12/threatsday-bulletin-stealth-loaders-ai.html",
+    "description": "It’s getting harder to tell where normal tech ends and malicious intent begins. Attackers are no longer just breaking in — they’re blending in, hijacking everyday tools, trusted apps, and even AI assistants. What used to feel like clear-cut “hacker stories” now looks more like a mirror of the systems we all use.  This week’s findings show a pattern: precision, patience, and persuasion. The newest campaigns don’t shout for attention — they whisper through familiar interfaces, fake updates, and polished code. The danger isn’t just in what’s being exploited, but in how ordinary it all looks.  ThreatsDay pulls these threads together — from corporate networks to consumer tech — revealing how quiet manipulation and automation are reshaping the threat landscape. It’s a reminder that the future of cybersecurity won’t hinge on bigger walls, but on sharper awareness.                   Open-source tool exploited             Abuse of Nezha for Post-Exploitation                  Bad actors are le...",
+    "status": "Dec 25, 2025",
+    "date": "11/02/2026 à 0:24",
+    "timestamp": 1770769462469
+  },
+  {
+    "title": "LastPass 2022 Breach Led to Years-Long Cryptocurrency Thefts, TRM Labs Finds",
+    "link": "https://thehackernews.com/2025/12/lastpass-2022-breach-led-to-years-long.html",
+    "description": "The encrypted vault backups stolen from the 2022 LastPass data breach have enabled bad actors to take advantage of weak master passwords to crack them open and drain cryptocurrency assets as recently as late 2025, according to new findings from TRM Labs.  The blockchain intelligence firm said  evidence points to the involvement of Russian cybercriminal actors in the activity, with one of the Russian exchanges receiving LastPass-linked funds as recently as October.  This assessment is \"based on the totality of on-chain evidence – including repeated interaction with Russia-associated infrastructure, continuity of control across pre-and post-mix activity, and the consistent use of high-risk Russian exchanges as off-ramps ,\" it added.   LastPass suffered  a major hack in 2022 that enabled attackers to access personal information belonging to its customers, including their encrypted password vaults containing credentials, such as cryptocurrency private keys and seed phrases.   ...",
+    "status": "Dec 25, 2025",
+    "date": "11/02/2026 à 0:24",
+    "timestamp": 1770769462469
+  },
+  {
+    "title": "Attacks are Evolving: 3 Ways to Protect Your Business in 2026",
+    "link": "https://thehackernews.com/2025/12/attacks-are-evolving-3-ways-to-protect.html",
+    "description": "Every year, cybercriminals find new ways to steal money and data from businesses. Breaching a business network, extracting sensitive data, and selling it on the dark web has become a reliable payday.   But in 2025, the data breaches that affected small and medium-sized businesses (SMBs) challenged our perceived wisdom about exactly which types of businesses cybercriminals are targeting.   This article will outline the learnings from key data breaches in 2025 as well as the most effective ways for SMBs to protect themselves in the coming year.  Examining the 2025 data breaches  Prior to 2025, large businesses were popular targets for hackers because of their large pools of resources. It was assumed that smaller businesses simply weren’t as vulnerable to cyberattacks because there was less value in attacking them.  But new security research from the Data Breach Observatory  shows that’s changing: Small- and medium-sized businesses (SMBs) are now more likely to become a target. ...",
+    "status": "Dec 24, 2025",
+    "date": "11/02/2026 à 0:24",
+    "timestamp": 1770769462469
+  },
+  {
+    "title": "INTERPOL Arrests 574 in Africa; Ukrainian Ransomware Affiliate Pleads Guilty",
+    "link": "https://thehackernews.com/2025/12/interpol-arrests-574-in-africa.html",
+    "description": "A law enforcement operation coordinated by INTERPOL has led to the recovery of $3 million and the arrest of 574 suspects by authorities from 19 countries, amidst a continued crackdown on cybercrime networks in Africa.  The coordinated effort, named Operation Sentinel, took place  between October 27 and November 27, 2025, and mainly focused on business email compromise (BEC), digital extortion, and ransomware on the continent.  Participating nations included Benin, Botswana, Burkina Faso, Cameroon, Chad, Congo, Djibouti, Democratic Republic of the Congo, Gabon, Ghana, Kenya, Malawi, Nigeria, Senegal, South Africa, South Sudan, Uganda, Zambia, and Zimbabwe.  Over the course of the initiative, more than 6,000 malicious links were taken down and six distinct ransomware variants were decrypted. The names of the ransomware families were not disclosed. The investigated incidents were linked to estimated financial losses exceeding $21 million, INTERPOL added.   Multiple suspects have been arr...",
+    "status": "Dec 23, 2025",
+    "date": "11/02/2026 à 0:24",
+    "timestamp": 1770769462470
+  },
+  {
+    "title": "⚡ Weekly Recap: Firewall Exploits, AI Data Theft, Android Hacks, APT Attacks, Insider Leaks & More",
+    "link": "https://thehackernews.com/2025/12/weekly-recap-firewall-exploits-ai-data.html",
+    "description": "Cyber threats last week showed how attackers no longer need big hacks to cause big damage. They’re going after the everyday tools we trust most — firewalls, browser add-ons, and even smart TVs — turning small cracks into serious breaches.  The real danger now isn’t just one major attack, but hundreds of quiet ones using the software and devices already inside our networks. Each trusted system can become an entry point if it’s left unpatched or overlooked.  Here’s a clear look at the week’s biggest risks, from exploited network flaws to new global campaigns and fast-moving vulnerabilities.  ⚡ Threat of the Week  Flaws in Multiple Network Security Products Come Under Attack — Over the past week, Fortinet , SonicWall , Cisco , and WatchGuard  said vulnerabilities in their products have been exploited by threat actors in real-world attacks. Cisco said attacks exploiting CVE-2025-20393, a critical flaw in AsyncOS, have been abused by a China-nexus advanced persistent threat (APT) actor cod...",
+    "status": "Dec 22, 2025",
+    "date": "11/02/2026 à 0:24",
+    "timestamp": 1770769462471
+  },
+  {
+    "title": "Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors",
+    "link": "https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html",
+    "description": "In December 2024, the popular Ultralytics AI library  was compromised, installing malicious code that hijacked system resources for cryptocurrency mining. In August 2025 , malicious Nx packages leaked 2,349 GitHub, cloud, and AI credentials. Throughout 2024, ChatGPT vulnerabilities allowed unauthorized extraction of user data from AI memory.  The result:  23.77 million secrets were leaked through AI systems in 2024 alone, a 25% increase from the previous year.  Here's what these incidents have in common: The compromised organizations had comprehensive security programs. They passed audits. They met compliance requirements. Their security frameworks simply weren't built for AI threats.  Traditional security frameworks have served organizations well for decades. But AI systems operate fundamentally differently from the applications these frameworks were designed to protect. And the attacks against them don't fit into existing control categories. Security teams followed the f...",
+    "status": "Dec 29, 2025",
+    "date": "12/02/2026 à 7:24",
+    "timestamp": 1770881062756
+  },
+  {
+    "title": "Trust Wallet Chrome Extension Hack Drains $8.5M via Shai-Hulud Supply Chain Attack",
+    "link": "https://thehackernews.com/2025/12/trust-wallet-chrome-extension-hack.html",
+    "description": "Trust Wallet on Tuesday revealed that the second iteration of the Shai-Hulud  (aka Sha1-Hulud) supply chain outbreak in November 2025 was likely responsible for the hack of its Google Chrome extension , ultimately resulting in the theft of approximately $8.5 million in assets.  \"Our Developer GitHub secrets were exposed in the attack, which gave the attacker access to our browser extension source code and the Chrome Web Store (CWS) API key,\" the company said  in a post-mortem published Tuesday.  \"The attacker obtained full CWS API access via the leaked key, allowing builds to be uploaded directly without Trust Wallet's standard release process, which requires internal approval/manual review.\"   Subsequently, the attacker is said to have registered the domain \"metrics-trustwallet[.]com\" and pushed a trojanized version of the extension with a backdoor that's capable of harvesting users' wallet mnemonic phrases to the sub-domain \"api.metrics...",
+    "status": "Dec 31, 2025",
+    "date": "14/02/2026 à 17:24",
+    "timestamp": 1771089862403
+  },
+  {
+    "title": "Bitfinex Hack Convict Ilya Lichtenstein Released Early Under U.S. First Step Act",
+    "link": "https://thehackernews.com/2026/01/bitfinex-hack-convict-ilya-lichtenstein.html",
+    "description": "Ilya Lichtenstein, who was sentenced to prison last year for money laundering charges in connection with his role in the massive hack of cryptocurrency exchange Bitfinex in 2016, said he has been released early.  In a post shared  on X last week, the 38-year-old announced his release, crediting U.S. President Donald Trump's First Step Act. According to the Federal Bureau of Prisons' inmate locator , Lichtenstein is scheduled for release on February 9, 2026.  \"I remain committed to making a positive impact in cybersecurity as soon as I can,\" Lichtenstein added. \"To the supporters, thank you for everything. To the haters, I look forward to proving you wrong.\"   The First Step Act , passed by the Trump administration in 2018, is a bipartisan legislation that aims to improve criminal justice outcomes and reduce the federal prison population through a series of reforms, including by establishing a \"risk and needs assessment system\" to determine the rec...",
+    "status": "Jan 05, 2026",
+    "date": "19/02/2026 à 10:24",
+    "timestamp": 1771496662802
+  },
+  {
+    "title": "⚡ Weekly Recap: IoT Exploits, Wallet Breaches, Rogue Extensions, AI Abuse & More",
+    "link": "https://thehackernews.com/2026/01/weekly-recap-iot-exploits-wallet.html",
+    "description": "The year opened without a reset. The same pressure carried over, and in some places it tightened. Systems people assume are boring or stable are showing up in the wrong places. Attacks moved quietly, reused familiar paths, and kept working longer than anyone wants to admit.  This week’s stories share one pattern. Nothing flashy. No single moment. Just steady abuse of trust — updates, extensions, logins, messages — the things people click without thinking. That’s where damage starts now.  This recap pulls those signals together. Not to overwhelm, but to show where attention slipped and why it matters early in the year.  ⚡ Threat of the Week  RondoDox Botnet Exploits React2Shell Flaw  — A persistent nine-month-long campaign has targeted Internet of Things (IoT) devices and web applications to enroll them into a botnet known as RondoDox. As of December 2025, the activity has been observed leveraging the recently disclosed React2Shell (CVE-2025-55182, CVSS score: 10.0) flaw as an initial...",
+    "status": "Jan 05, 2026",
+    "date": "19/02/2026 à 13:24",
+    "timestamp": 1771507462700
+  },
+  {
+    "title": "Identity Cyber Scores: The New Metric Shaping Cyber Insurance in 2026",
+    "link": "https://thehackernews.com/2026/02/identity-cyber-scores-new-metric.html",
+    "description": "With one in three cyber-attacks  now involving compromised employee accounts, insurers and regulators are placing far greater emphasis on identity posture when assessing cyber risk.   For many organizations, however, these assessments remain largely opaque. Elements such as password hygiene, privileged access management, and the extent of multi-factor authentication (MFA) coverage are increasingly influential in how cyber risk and insurance costs  are evaluated.  Understanding the identity-centric factors behind these assessments is critical for organizations seeking to demonstrate lower risk exposure and secure more favorable insurance terms.  Why identity posture now drives underwriting  With the global average cost  of a data breach reaching $4.4 million in 2025, more organizations are turning to cyber insurance to manage financial exposure. In the UK, coverage has increased from 37%  in 2023 to 45%  in 2025, but rising claims volumes are prompting insurers to tighten underwrit...",
+    "status": "Feb 20, 2026",
+    "date": "20/02/2026 à 10:54",
+    "timestamp": 1771584862641
+  },
+  {
+    "title": "⚡ Weekly Recap: AI Automation Exploits, Telecom Espionage, Prompt Poaching & More",
+    "link": "https://thehackernews.com/2026/01/weekly-recap-ai-automation-exploits.html",
+    "description": "This week made one thing clear: small oversights can spiral fast. Tools meant to save time and reduce friction turned into easy entry points once basic safeguards were ignored. Attackers didn’t need novel tricks. They used what was already exposed and moved in without resistance.  Scale amplified the damage. A single weak configuration rippled out to millions. A repeatable flaw worked again and again. Phishing crept into apps people rely on daily, while malware blended into routine system behavior. Different victims, same playbook: look normal, move quickly, spread before alarms go off.  For defenders, the pressure keeps rising. Vulnerabilities are exploited almost as soon as they surface. Claims and counterclaims appear before the facts settle. Criminal groups adapt faster each cycle. The stories that follow show where things failed—and why those failures matter going forward.  ⚡ Threat of the Week  Maximum Severity Security Flaw Disclosed in n8n  — A maximum-severity vulnerability ...",
+    "status": "Jan 12, 2026",
+    "date": "26/02/2026 à 14:24",
+    "timestamp": 1772115862980
+  },
+  {
+    "title": "FBI and Europol Seize LeakBase Forum Used to Trade Stolen Credentials",
+    "link": "https://thehackernews.com/2026/03/fbi-and-europol-seize-leakbase-forum.html",
+    "description": "A joint law enforcement operation has dismantled LeakBase , one of the world's largest online forums for cybercriminals to buy and sell stolen data and cybercrime tools.  The LeakBase forum, per the U.S. Department of Justice (DoJ), had over 142,000 members and more than 215,000 messages between members as of December 2025. Those attempting to access the forum's website (\" leakbase[.]la \") are now greeted with a seizure banner that says it was confiscated by the U.S. Federal Bureau of Investigation (FBI) as part of an international law enforcement effort.  \"All forum content, including users' accounts, posts, credit details, private messages, and IP logs, has been secured and preserved for evidentiary purposes,\" the banner reads.  Available in English and accessible over the clearnet, LeakBase offered hacked databases , including hundreds of millions of account credentials and financial information such as credit and debit card numbers, banking account ...",
+    "status": "Mar 05, 2026",
+    "date": "05/03/2026 à 6:44",
+    "timestamp": 1772693050329
+  },
+  {
+    "title": "⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More",
+    "link": "https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html",
+    "description": "In cybersecurity, the line between a normal update and a serious incident keeps getting thinner. Systems that once felt reliable are now under pressure from constant change. New AI tools, connected devices, and automated systems quietly create more ways in, often faster than security teams can react. This week’s stories show how easily a small mistake or hidden service can turn into a real break-in.  Behind the headlines, the pattern is clear. Automation is being used against the people who built it. Attackers reuse existing systems instead of building new ones. They move faster than most organizations can patch or respond. From quiet code flaws to malware that changes while it runs, attacks are focusing less on speed and more on staying hidden and in control.  If you’re protecting anything connected—developer tools, cloud systems, or internal networks—this edition shows where attacks are going next, not where they used to be.  ⚡ Threat of the Week  Critical Fortinet Flaw Comes Under...",
+    "status": "Jan 19, 2026",
+    "date": "05/03/2026 à 14:44",
+    "timestamp": 1772721850350
+  },
+  {
+    "title": "Password Reuse in Disguise: An Often-Missed Risky Workaround",
+    "link": "https://thehackernews.com/2026/01/password-reuse-in-disguise-often-missed.html",
+    "description": "When security teams discuss credential-related risk, the focus typically falls on threats such as phishing, malware, or ransomware. These attack methods continue to evolve and rightly command attention. However, one of the most persistent and underestimated risks to organizational security remains far more ordinary.  Near-identical password reuse  continues to slip past security controls, often unnoticed, even in environments with established password policies.  Why password reuse still persists despite strong policies  Most organizations understand that using the exact same password across multiple systems introduces risk. Security policies, regulatory frameworks, and user awareness  training consistently discourage this behavior, and many employees make a genuine effort to comply. On the surface, this suggests that password reuse should be a diminishing problem.  In reality, attackers continue to gain access through credentials  that technically meet policy requirements. The reason ...",
+    "status": "Jan 28, 2026",
+    "date": "14/03/2026 à 13:44",
+    "timestamp": 1773495850978
+  },
+  {
+    "title": "Badges, Bytes and Blackmail",
+    "link": "https://thehackernews.com/2026/01/badges-bytes-and-blackmail.html",
+    "description": "Behind the scenes of law enforcement in cyber: what do we know about caught cybercriminals? What brought them in, where do they come from and what was their function in the crimescape?   Introduction: One view on the scattered fight against cybercrime  The growing sophistication and diversification of cybercrime have compelled law enforcement agencies worldwide to respond through increasingly coordinated and publicized actions. Yet, despite the visibility of these operations, there remains no comprehensive overview, to our knowledge, on how law enforcement is addressing cybercrime globally. Publicly available information is dispersed across agencies, jurisdictions, case-specific reporting (e.g., “Operation Endgame”) [1] , and reporting formats, offering fragmented insights rather than a cohesive understanding of what types of crime are being targeted, what actions are taken, and who the offenders are. This results in isolated glimpses rather than a consistent global picture. Therefor...",
+    "status": "Jan 30, 2026",
+    "date": "16/03/2026 à 12:14",
+    "timestamp": 1773663250887
+  },
+  {
+    "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
+    "link": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
+    "description": "Cybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain attack , highlighting the widening blast radius across developer environments.  The last known clean release of Trivy  on Docker Hub is 0.69.3. The malicious versions 0.69.4, 0.69.5, and 0.69.6 have since been removed from the container image library.  \"New image tags 0.69.5 and 0.69.6 were pushed on March 22 without corresponding GitHub releases or tags. Both images contain indicators of compromise associated with the same TeamPCP infostealer observed in earlier stages of this campaign,\" Socket security researcher Philipp Burckhardt said .  The development comes in the wake a supply chain compromise  of Trivy, a popular open-source vulnerability scanner maintained by Aqua Security, allowing the threat actors to leverage a compromised credential to push a credential stealer within trojanized versions of the tool and two related GitHub Actions \"aquas...",
+    "status": "Mar 23, 2026",
+    "date": "23/03/2026 à 8:44",
+    "timestamp": 1774255450831
+  },
+  {
+    "title": "We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them",
+    "link": "https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html",
+    "description": "AWS Bedrock  is Amazon's platform for building AI-powered applications. It gives developers access to foundation models and the tools to connect those models directly to enterprise data and systems. That connectivity is what makes it powerful – but it’s also what makes Bedrock a target.  When an AI agent can query your Salesforce instance, trigger a Lambda function, or pull from a SharePoint knowledge base, it becomes a node in your infrastructure - with permissions, with reachability, and with paths that lead to critical assets. The XM Cyber threat research team mapped exactly how attackers could exploit that connectivity inside Bedrock environments. The result: eight validated attack vectors spanning log manipulation, knowledge base compromise, agent hijacking, flow injection, guardrail degradation, and prompt poisoning.  In this article, we’ll walk through each vector - what it targets, how it works, and what an attacker can reach on the other side.  The Eight Vectors  The XM ...",
+    "status": "Mar 23, 2026",
+    "date": "23/03/2026 à 12:14",
+    "timestamp": 1774268050637
+  }
+]

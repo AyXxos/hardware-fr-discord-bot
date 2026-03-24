@@ -190,5 +190,13 @@
     "status": "Mar 23, 2026",
     "date": "23/03/2026 à 12:14",
     "timestamp": 1774268050637
+  },
+  {
+    "title": "U.S. Sentences Russian Hacker to 6.75 Years for Role in $9M Ransomware Damage",
+    "link": "https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html",
+    "description": "A 26-year-old Russian citizen has been sentenced in the U.S. to 6.75 years (81 months) in prison for his role in assisting major cybercrime groups, including the Yanluowang ransomware crew, in conducting numerous attacks against U.S. companies and other organizations.  According to the U.S. Department of Justice (DoJ), Aleksei Olegovich Volkov  facilitated dozens of ransomware attacks across the U.S., causing more than $9 million in actual losses and over $24 million in intended losses. Volkov was arrested on January 18, 2024, in Italy and extradited to the U.S. to face charges. He pleaded guilty  to the crimes in November 2025.  Volkov is said to have served as an initial access broker responsible for obtaining unauthorized access to computer networks and systems belonging to various organizations and selling that access to other criminal groups, including ransomware actors. This was accomplished by exploiting vulnerabilities or finding ways to access the networks without authorizati...",
+    "status": "Mar 24, 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340078917
   }
 ]

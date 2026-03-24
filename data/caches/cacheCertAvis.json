@@ -1566,5 +1566,47 @@
     "description": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
     "date": "20/03/2026 à 13:14",
     "timestamp": 1774012450441
+  },
+  {
+    "title": "Multiples vulnérabilités dans les produits Microsoft",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0341/",
+    "description": "Pas de description",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340077954
+  },
+  {
+    "title": "Multiples vulnérabilités dans Microsoft Edge",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0340/",
+    "description": "Pas de description",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340077954
+  },
+  {
+    "title": "Vulnérabilité dans les produits Synology",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0338/",
+    "description": "Pas de description",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340077954
+  },
+  {
+    "title": "Multiples vulnérabilités dans les produits Citrix",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0337/",
+    "description": "Pas de description",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340077954
+  },
+  {
+    "title": "Multiples vulnérabilités dans les produits Qnap",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0336/",
+    "description": "Pas de description",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340077954
+  },
+  {
+    "title": "Vulnérabilité dans CPython",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0335/",
+    "description": "Pas de description",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340077955
   }
 ]

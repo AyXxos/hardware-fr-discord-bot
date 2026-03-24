@@ -2086,5 +2086,69 @@
     "status": "Posted on 23rd March 2026 | Modified on 23rd March 2026",
     "date": "23/03/2026 à 10:14",
     "timestamp": 1774260850686
+  },
+  {
+    "title": "Alibaba launches 5nm RISC-V CPU for inference",
+    "link": "https://www.electronicsweekly.com/news/business/alibaba-launches-5nm-risc-v-cpu-for-inference-2026-03/",
+    "description": "Alibaba’s research arm, Damo Academy, has launched a RISC-V based CPU for AI inference which can be customised to a user’s workload and is claimed to be the highest-performing RISC-V processor in the world.  Called the XuanTie C950, it is a 5nm, 3.2GHz processor aimed at competing in the worldwide AI chip market. Alibaba CEO Eddie Wu says he is ...",
+    "status": "Posted on 24th March 2026 | Modified on 24th March 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340081614
+  },
+  {
+    "title": "Foundry capacity underutilised but revenues and market share growing",
+    "link": "https://www.electronicsweekly.com/news/business/foundry-capacity-underutilised-but-revenues-and-market-share-growing-2026-03/",
+    "description": "Semiconductor wafer demand (12” equivalent) reached 8.7 million wpm last year, says Yole Group, with the foundry industry earning 47% of all wafer manufacturing revenue, worth $181 billion, last year Foundry manufacturing capacity continues to grow and is projected to reach 15.25 million wpm by 2031. The CAGR should be 4% from 2025 to 2031 However, over-investment in manufacturing capacity ...",
+    "status": "Posted on 24th March 2026 | Modified on 24th March 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340081615
+  },
+  {
+    "title": "Cambridge researchers propose Hf(Sr,Ti)O2  memristors for neuromorphic devices.",
+    "link": "https://www.electronicsweekly.com/news/business/cambridge-researchers-propose-hfsrtio2-thin-films-for-memristor-based-neuromorphic-devices-2026-03/",
+    "description": "Researchers at the University of Cambridge have proposed an answer to escalating energy consumption of  AI hardware – multicomponent p-type Hf(Sr,Ti)O2 thin films for memristor-based neuromorphic devices. ‘Neuromorphic computing offers promises to drastically reduce this footprint,’ say the researchers, ‘here, we introduce multicomponent p-type Hf(Sr,Ti)O2 thin films for energy-efficient, resistive switching–based neuromorphic devices. We demonstrate interfacial memristors with ultralow switching ...",
+    "status": "Posted on 24th March 2026 | Modified on 24th March 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340081615
+  },
+  {
+    "title": "EPC91121 BLDC motor drive evaluation board",
+    "link": "https://www.electronicsweekly.com/news/business/epc-launches-2026-03/",
+    "description": "Efficient Power Conversion (EPC), the eGaN power device specialist, has introduced the EPC91121 motor drive inverter evaluation board, built around the Gen-7 EPC2366 40 V eGaN power transistor. Measuring 79 mm × 80 mm, the EPC91121 is engineered for rapid prototyping of advanced motor drive architectures in applications such as drones, robotics, industrial automation, handheld power tools, and other compact ...",
+    "status": "Posted on 24th March 2026 | Modified on 24th March 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340081615
+  },
+  {
+    "title": "Dual diodes for microwave WPT",
+    "link": "https://www.electronicsweekly.com/news/business/dual-diodes-for-microwave-wpt-2026-03/",
+    "description": "Nisshinbo Micro Devices has announced the NT9000/NT9001/NT9002/NT9003 series, these are dual diode devices designed for Wireless Power Transfer (WPT). The new series utilizes the company’s proprietary GaAs wafer process technology and is designed to support highly efficient rectification in WPT systems by combining low forward voltage with high DC withstand voltage, enabling improved conversion efficiency over a wide dynamic range. ...",
+    "status": "Posted on 24th March 2026 | Modified on 24th March 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340081616
+  },
+  {
+    "title": "Teradyne’s Omnyx tests PCBA for AI servers",
+    "link": "https://www.electronicsweekly.com/news/products/test-measurement-products/teradynes-omnyx-tests-pcba-for-ai-servers-2026-03/",
+    "description": "Teradyne is introducing Omnyx, a manufacturing test platform for detecting operational defects in printed circuit board assemblies (PCBA). It’s aimed at AI servers and data center systems and the company says it combines structural, parametric, high-speed interconnect and functional testing. The ideal is to allow manufacturers to identify defects earlier in the production process. This would improve yield and quality ...",
+    "status": "Posted on 23rd March 2026 | Modified on 23rd March 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340081616
+  },
+  {
+    "title": "UK Space Agency GSTP funding to boost UK space innovation",
+    "link": "https://www.electronicsweekly.com/news/business/finance/uk-space-agency-gstp-funding-to-boost-uk-space-innovation-2026-03/",
+    "description": "The UK Space Agency (UKSA) is making funding of up to £14.7 million available to UK companies to develop “cutting-edge space technologies”. The agency says the goal is strengthen the UK’s industrial capability. And the funding will officially be made available through the European Space Agency’s (ESA) General Support Technology Programme (GSTP). This is the ESA’s flagship programme for maturing ...",
+    "status": "Posted on 23rd March 2026 | Modified on 23rd March 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340081616
+  },
+  {
+    "title": "Power Integrations extend TOPSwitch IC range with PowiGaN tech",
+    "link": "https://www.electronicsweekly.com/news/products/micros/power-integrations-extend-topswitch-ic-range-with-powigan-tech-2026-03/",
+    "description": "APEC 2026: Power Integrations has implemented its GaN technology in its TOPSwitch flyback ICs to increase the power range to 400W. The company’s PowiGaN technology means that the flyback converters more than double power output to extend the power range above the conventional 250W to 440W for faster charging for e-bikes, mobility devices and industrial applications. They also exceed ErP ...",
+    "status": "Posted on 23rd March 2026 | Modified on 23rd March 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340081616
   }
 ]

@@ -1230,5 +1230,53 @@
     "status": "23 mars 2026",
     "date": "23/03/2026 à 12:44",
     "timestamp": 1774269851133
+  },
+  {
+    "title": "Claude peut contrôler votre Mac comme un humain",
+    "link": "https://frenchbreaches.com/blog/claude-peut-controler-votre-mac-comme-un-humain",
+    "description": "Claude peut désormais contrôler un mac pour effectuer des tâches complexes. Une avancée majeure vers des agents IA capables d’agir comme de vrais utilisateurs.",
+    "status": "24 mars 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340079678
+  },
+  {
+    "title": "243 000 agents piratés : énorme fuite de données à l’Éducation nationale après une cyberattaque ciblée",
+    "link": "https://frenchbreaches.com/blog/243-000-agents-pirates-enorme-fuite-de-donnees-a-leducation-nationale-apres-une-cyberattaque-ciblee",
+    "description": "Une cyberattaque confirmée a exposé les données personnelles de 243 000 agents de l’Éducation nationale. L’attaque, détectée plusieurs jours après, relance les inquiétudes sur la sécurité des systèmes publics.",
+    "status": "24 mars 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340079679
+  },
+  {
+    "title": "Des milliers de voitures bloquées après une cyberattaque visant Intoxalock",
+    "link": "https://frenchbreaches.com/blog/des-milliers-de-voitures-bloquees-apres-une-cyberattaque-visant-intoxalock",
+    "description": "Une cyberattaque visant Intoxalock a bloqué des services critiques liés aux éthylotests anti-démarrage, empêchant des milliers d’automobilistes américains de reprendre la route.",
+    "status": "23 mars 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340079679
+  },
+  {
+    "title": "Piratage Allopneus : 453 000 clients exposés, 12 ans de données sur le dark web",
+    "link": "https://frenchbreaches.com/blog/piratage-allopneus-453-000-clients-exposes-12-ans-de-donnees-sur-le-dark-web",
+    "description": "Une base de données Allopneus contenant 453 000 clients serait en vente. Emails, téléphones et adresses exposés sur un forum cybercriminel.",
+    "status": "23 mars 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340079679
+  },
+  {
+    "title": "Le streamer Hiboux aurait été interpellé : un coup dur pour le streaming illégal en France ?",
+    "link": "https://frenchbreaches.com/blog/le-streamer-hiboux-aurait-ete-interpelle-un-coup-dur-pour-le-streaming-illegal-en-france",
+    "description": "Le streamer Hiboux aurait été interpellé. Actif sur X, Telegram et Discord, il diffusait des compétitions sportives illégalement et proposait des offres IPTV à bas prix à ses utilisateurs.",
+    "status": "23 mars 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340079679
+  },
+  {
+    "title": "300 millions de données françaises en vente pour 350$ : une fuite massive révélée",
+    "link": "https://frenchbreaches.com/blog/300-millions-de-donnees-francaises-en-vente-pour-350-une-fuite-massive-revelee",
+    "description": "Plus de 300 millions de données françaises issues de +200 bases seraient en vente pour 350$. Emails, mots de passe et identités concernés.",
+    "status": "23 mars 2026",
+    "date": "24/03/2026 à 9:14",
+    "timestamp": 1774340079679
   }
 ]

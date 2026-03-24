@@ -2,8 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 const path = require("path");
-const { AttachmentBuilder, Collection, EmbedBuilder } = require('discord.js');
-const { console } = require("inspector");
+const { MessageEmbed } = require('discord.js');
 const CACHE_FILE = path.join(__dirname, "../data/caches/cacheCertAlerts.json");
 const tools = require("../tools.js");
 const getCert = async () => {
@@ -87,19 +86,21 @@ module.exports = async (bot) => {
     if (sb.title.toLowerCase().includes("vulnérabilité") || sb.title.toLowerCase().includes("vulnérabilités")) tags.push("1478429132542050435"); // Ignorer les titres avec "Vulnétalibié"
     const color = tools.randomColor();
     try {
-      const embed = new EmbedBuilder()
+      const embed = new MessageEmbed()
           .setColor(color)
           .setTitle(sb.title)
-          .addFields({ name: "📌 Statut", value: sb.status, inline: true })
-          .addFields({ name: "📝 Description", value: sb.description || "Pas de description disponible." })
-          .setFooter({ text: sb.date });
+          .addField("📌 Statut", sb.status, true)
+          .addField("📝 Description", sb.description || "Pas de description disponible.")
+          .setFooter(sb.date);
 
       if (sb.link) {
-        embed.addFields({ name: "🔗 Lire l'alerte complète", value: `[Lien vers le site](${sb.link})` });
+        embed.addField("🔗 Lire l'alerte complète", `[Lien vers le site](${sb.link})`);
       }
 
+      const threadName = sb.title.length > 100 ? sb.title.substring(0, 97) + '...' : sb.title;
+
       await forum.threads.create({
-        name: sb.title,
+        name: threadName,
         message: {
           content: sb.status,
           embeds: [embed],

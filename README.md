@@ -29,6 +29,7 @@ Créer un fichier `.env` à la racine du projet:
 
 ```env
 DISCORD_TOKEN=VOTRE_TOKEN_DISCORD
+MISTRAL_API_KEY=VOTRE_CLE_API_MISTRAL
 ```
 
 Le token est lu dans `config.js` via `dotenv`.

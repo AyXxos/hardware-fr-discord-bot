@@ -1,21 +1,5 @@
 [
   {
-    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
-    "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
-    "description": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw, tracked as CVE-2026-25049  (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613  (CVSS score: 9.9), another critical defect that was patched by n8n in December 2025.  \"Additional exploits in the expression evaluation of n8n have been identified and patched following CVE-2025-68613,\" n8n's maintainers said  in an advisory released Wednesday.  \"An authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n.\"   The issue affects the following versions -   <1.123.17 (Fixed in 1.123.17)  <2.5.2 (Fixed in 2.5.2)",
-    "status": "Feb 05, 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845045
-  },
-  {
-    "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
-    "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
-    "description": "OpenClaw (formerly Moltbot and Clawdbot) has announced  that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader efforts to bolster the security of the agentic ecosystem.  \"All skills published to ClawHub are now scanned using VirusTotal's threat intelligence, including their new Code Insight capability,\" OpenClaw's founder Peter Steinberger, along with Jamieson O'Reilly and Bernardo Quintero said. \"This provides an additional layer of security for the OpenClaw community.\"  The process essentially entails creating a unique SHA-256 hash for every skill and cross checking it against VirusTotal's database for a match. If it's not found, the skill bundle is uploaded to the malware scanning tool for further analysis using VirusTotal Code Insight .  Skills that have a \"benign\" Code Insight verdict are automatically approved by ClawHub, while those marke...",
-    "status": "Feb 08, 2026",
-    "date": "08/02/2026 à 7:54",
-    "timestamp": 1770537262513
-  },
-  {
     "title": "TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure",
     "link": "https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html",
     "description": "Cybersecurity researchers have called attention to a \"massive campaign\" that has systematically targeted cloud native environments to set up malicious infrastructure for follow-on exploitation.  The activity, observed around December 25, 2025, and described as \"worm-driven,\" leveraged exposed Docker APIs, Kubernetes clusters, Ray dashboards, and Redis servers, along with the recently disclosed React2Shell  (CVE-2025-55182, CVSS score: 10.0) vulnerability. The campaign has been attributed to a threat cluster known as TeamPCP  (aka DeadCatx3, PCPcat, PersyPCP, and ShellForce).  TeamPCP is known to be active since at least November 2025, with the first instance of Telegram activity dating back to July 30, 2025. The TeamPCP Telegram channel currently has over 700 members, where the group publishes stolen data from diverse victims across Canada, Serbia, South Korea, the U.A.E., and the U.S. Details of the threat actor were first documented  by Beelzebub in December 2025...",
@@ -198,5 +182,45 @@
     "status": "Mar 24, 2026",
     "date": "24/03/2026 à 9:14",
     "timestamp": 1774340078917
+  },
+  {
+    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+    "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+    "description": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw, tracked as CVE-2026-25049  (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613  (CVSS score: 9.9), another critical defect that was patched by n8n in December 2025.  \"Additional exploits in the expression evaluation of n8n have been identified and patched following CVE-2025-68613,\" n8n's maintainers said  in an advisory released Wednesday.  \"An authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n.\"   The issue affects the following versions -   <1.123.17 (Fixed in 1.123.17)  <2.5.2 (Fixed in 2.5.2)",
+    "status": "Feb 05, 2026",
+    "date": "24/03/2026 à 15:42",
+    "timestamp": 1774366920662
+  },
+  {
+    "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
+    "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
+    "description": "OpenClaw (formerly Moltbot and Clawdbot) has announced  that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader efforts to bolster the security of the agentic ecosystem.  \"All skills published to ClawHub are now scanned using VirusTotal's threat intelligence, including their new Code Insight capability,\" OpenClaw's founder Peter Steinberger, along with Jamieson O'Reilly and Bernardo Quintero said. \"This provides an additional layer of security for the OpenClaw community.\"  The process essentially entails creating a unique SHA-256 hash for every skill and cross checking it against VirusTotal's database for a match. If it's not found, the skill bundle is uploaded to the malware scanning tool for further analysis using VirusTotal Code Insight .  Skills that have a \"benign\" Code Insight verdict are automatically approved by ClawHub, while those marke...",
+    "status": "Feb 08, 2026",
+    "date": "25/03/2026 à 8:12",
+    "timestamp": 1774426320531
+  },
+  {
+    "title": "The Kill Chain Is Obsolete When Your AI Agent Is the Threat",
+    "link": "https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html",
+    "description": "In September 2025, Anthropic disclosed  that a state-sponsored threat actor used an AI coding agent to execute an autonomous cyber espionage campaign against 30 global targets. The AI handled 80-90% of tactical operations on its own, performing reconnaissance, writing exploit code, and attempting lateral movement at machine speed.  This incident is worrying, but there's a scenario that should concern security teams even more: an attacker who doesn't need to run through the kill chain at all, because they've compromised an AI agent that already lives inside your environment. One that already has the access, the permissions, and a legitimate reason to move across your systems every day.  A Framework Built for Human Threats  The traditional cyber kill chain assumes attackers have to earn every inch of access. It's a model  developed by Lockheed Martin in 2011 to describe how adversaries move from initial compromise to their ultimate objective, and it's shaped how secu...",
+    "status": "Mar 25, 2026",
+    "date": "25/03/2026 à 12:12",
+    "timestamp": 1774440720606
+  },
+  {
+    "title": "Russian Hacker Sentenced to 2 Years for TA551 Botnet-Driven Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html",
+    "description": "The U.S. Department of Justice (DoJ) said  a Russian national has been sentenced to two years in prison for managing a botnet that was used to launch ransomware attacks against U.S. companies.  Ilya Angelov, 40, of Tolyatti, Russia, was also fined $100,000. Angelov, who went by the online aliases \"milan\" and \"okart,\" is said to have co-managed a Russia-based cybercriminal group known as TA551  (aka ATK236, G0127, Gold Cabin, Hive0106, Mario Kart, Monster Libra, and Shathak) between 2017 and 2021.  \"Angelov's group built a network of compromised computers (a 'botnet') through distribution of malware-infected files attached to spam emails,\" the DoJ said. \"Angelov and his co-manager then monetized this botnet by selling access to individual compromised computers ('bots').\"   According to the sentencing memorandum , the threat group developed programs to distribute spam email and refined malware to bypass security tools. Angelov ...",
+    "status": "Mar 25, 2026",
+    "date": "25/03/2026 à 12:12",
+    "timestamp": 1774440720606
+  },
+  {
+    "title": "LeakBase Admin Arrested in Russia Over Massive Stolen Credential Marketplace",
+    "link": "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html",
+    "description": "The alleged administrator of the LeakBase  cybercrime forum has been arrested by Russian law enforcement authorities, state media reported Thursday.  According to TASS  and MVD Media , a news website linked to the Russian Interior Ministry, the suspect is a resident of the city of Taganrog. The suspect is said to have been detained for creating and managing a criminal site that allowed stolen personal databases to be traded since 2021.  In addition, technical equipment and other items of evidentiary value were confiscated during a search of the suspect's residence.  \"The platform hosted hundreds of millions of user accounts, bank details, usernames, and passwords, as well as corporate documents obtained through hacking,\" said Irina Volk, an official spokesperson for the Russian Ministry of Internal Affairs. \"More than 147,000 users registered on the forum could buy and sell this data, as well as use it to commit fraudulent acts against citizens.\"   LeakBase was...",
+    "status": "Mar 25, 2026",
+    "date": "25/03/2026 à 17:42",
+    "timestamp": 1774460520522
   }
 ]

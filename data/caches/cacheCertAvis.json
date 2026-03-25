@@ -1,152 +1,5 @@
 [
   {
-    "title": "Multiples vulnérabilités dans les produits IBM",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0131/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810335
-  },
-  {
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0130/",
-    "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810335
-  },
-  {
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0129/",
-    "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810335
-  },
-  {
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0128/",
-    "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810336
-  },
-  {
-    "title": "Vulnérabilité dans NetApp ONTAP 9",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0127/",
-    "description": "Une vulnérabilité a été découverte dans NetApp ONTAP 9. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un déni de service.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810337
-  },
-  {
-    "title": "Vulnérabilité dans ESET Management Agent",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0126/",
-    "description": "Une vulnérabilité a été découverte dans ESET Management Agent. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810337
-  },
-  {
-    "title": "Multiples vulnérabilités dans les produits Moxa",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0125/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un déni de service. L'éditeur, dans son bulletin de sécurité, fournit des recommandations de diminution des risques associés pour...",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810337
-  },
-  {
-    "title": "Multiples vulnérabilités dans Microsoft Edge",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0124/",
-    "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810337
-  },
-  {
-    "title": "Multiples vulnérabilités dans Asterisk",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0123/",
-    "description": "De multiples vulnérabilités ont été découvertes dans Asterisk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810338
-  },
-  {
-    "title": "Multiples vulnérabilités dans Tenable Nessus",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0122/",
-    "description": "De multiples vulnérabilités ont été découvertes dans Tenable Nessus. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810339
-  },
-  {
-    "title": "Vulnérabilité dans les produits Juniper Networks",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0121/",
-    "description": "Une vulnérabilité a été découverte dans les produits Juniper Networks. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810429
-  },
-  {
-    "title": "Multiples vulnérabilités dans les produits F5",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0120/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810432
-  },
-  {
-    "title": "Multiples vulnérabilités dans les produits Cisco",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0119/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810432
-  },
-  {
-    "title": "Multiples vulnérabilités dans les produits Splunk",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0118/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810432
-  },
-  {
-    "title": "Multiples vulnérabilités dans GLPI",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0117/",
-    "description": "De multiples vulnérabilités ont été découvertes dans GLPI. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injection SQL (SQLi) et une falsification de requêtes côté serveur (SSRF).",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810432
-  },
-  {
-    "title": "Vulnérabilité dans les produits Moxa",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0116/",
-    "description": "Une vulnérabilité a été découverte dans les produits Moxa. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810432
-  },
-  {
-    "title": "Multiples vulnérabilités dans Tenable Identity Exposure",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0115/",
-    "description": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810432
-  },
-  {
-    "title": "Multiples vulnérabilités dans Google Chrome",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0114/",
-    "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810432
-  },
-  {
-    "title": "Vulnérabilité dans Google Pixel",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0113/",
-    "description": "Une vulnérabilité a été découverte dans Google Pixel. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810433
-  },
-  {
-    "title": "Multiples vulnérabilités dans les produits VMware",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0112/",
-    "description": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810433
-  },
-  {
-    "title": "Vulnérabilité dans ESET Inspect Connector",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0111/",
-    "description": "Une vulnérabilité a été découverte dans ESET Inspect Connector. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477810519
-  },
-  {
     "title": "Vulnérabilité dans Fortinet FortiClientEMS",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0136/",
     "description": "Une vulnérabilité a été découverte dans Fortinet FortiClientEMS. Elle permet à un attaquant de provoquer une injection SQL (SQLi).",
@@ -1608,5 +1461,131 @@
     "description": "Pas de description",
     "date": "24/03/2026 à 9:14",
     "timestamp": 1774340077955
+  },
+  {
+    "title": "Multiples vulnérabilités dans les produits VMware",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0339/",
+    "description": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "date": "24/03/2026 à 8:41",
+    "timestamp": 1774341716161
+  },
+  {
+    "title": "Multiples vulnérabilités dans Ruby on Rails",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0349/",
+    "description": "De multiples vulnérabilités ont été découvertes dans les produits Ruby on Rails. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à l'intégrité des données.",
+    "date": "24/03/2026 à 14:12",
+    "timestamp": 1774361520406
+  },
+  {
+    "title": "Vulnérabilité dans Trend Micro Deep Discovery Inspector",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0348/",
+    "description": "Une vulnérabilité a été découverte dans Trend Micro Deep Discovery Inspector. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+    "date": "24/03/2026 à 14:12",
+    "timestamp": 1774361520406
+  },
+  {
+    "title": "Vulnérabilité dans Xen",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0347/",
+    "description": "Une vulnérabilité a été découverte dans Xen. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "date": "24/03/2026 à 14:12",
+    "timestamp": 1774361520408
+  },
+  {
+    "title": "Vulnérabilité dans VMware Tanzu pour Postgres",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0346/",
+    "description": "Une vulnérabilité a été découverte dans VMware Tanzu pour Postgres. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "date": "24/03/2026 à 14:12",
+    "timestamp": 1774361520408
+  },
+  {
+    "title": "Vulnérabilité dans LibreNMS",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0345/",
+    "description": "Une vulnérabilité a été découverte dans LibreNMS. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une atteinte à l'intégrité des données.",
+    "date": "24/03/2026 à 14:12",
+    "timestamp": 1774361520408
+  },
+  {
+    "title": "Vulnérabilité dans strongSwan",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0344/",
+    "description": "Une vulnérabilité a été découverte dans strongSwan. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "date": "24/03/2026 à 14:12",
+    "timestamp": 1774361520408
+  },
+  {
+    "title": "Vulnérabilité dans Spring Cloud Config",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0343/",
+    "description": "Une vulnérabilité a été découverte dans Spring Cloud Config. Elle permet à un attaquant de provoquer une falsification de requêtes côté serveur (SSRF).",
+    "date": "24/03/2026 à 14:12",
+    "timestamp": 1774361520409
+  },
+  {
+    "title": "Multiples vulnérabilités dans Google Chrome",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0342/",
+    "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "date": "24/03/2026 à 14:12",
+    "timestamp": 1774361520411
+  },
+  {
+    "title": "Vulnérabilité dans Citrix XenServer",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0358/",
+    "description": "Une vulnérabilité a été découverte dans Citrix XenServer. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+    "date": "25/03/2026 à 14:42",
+    "timestamp": 1774449720163
+  },
+  {
+    "title": "Multiples vulnérabilités dans GitLab",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0357/",
+    "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et une injection de code indirecte à distance (XSS).",
+    "date": "25/03/2026 à 14:42",
+    "timestamp": 1774449720163
+  },
+  {
+    "title": "Vulnérabilité dans ISC Kea",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0356/",
+    "description": "Une vulnérabilité a été découverte dans ISC Kea. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "date": "25/03/2026 à 14:42",
+    "timestamp": 1774449720163
+  },
+  {
+    "title": "Multiples vulnérabilités dans les produits Apple",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0355/",
+    "description": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
+    "date": "25/03/2026 à 14:42",
+    "timestamp": 1774449720164
+  },
+  {
+    "title": "Multiples vulnérabilités dans les produits Mozilla",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0354/",
+    "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "date": "25/03/2026 à 14:42",
+    "timestamp": 1774449720164
+  },
+  {
+    "title": "Multiples vulnérabilités dans Zabbix",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0353/",
+    "description": "De multiples vulnérabilités ont été découvertes dans Zabbix. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection SQL (SQLi).",
+    "date": "25/03/2026 à 14:42",
+    "timestamp": 1774449720164
+  },
+  {
+    "title": "Multiples vulnérabilités dans les produits F5",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0352/",
+    "description": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+    "date": "25/03/2026 à 14:42",
+    "timestamp": 1774449720164
+  },
+  {
+    "title": "Vulnérabilité dans Tenable OT Platform",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0351/",
+    "description": "Une vulnérabilité a été découverte dans Tenable OT Platform. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+    "date": "25/03/2026 à 14:42",
+    "timestamp": 1774449720164
+  },
+  {
+    "title": "Multiples vulnérabilités dans Squid",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0350/",
+    "description": "De multiples vulnérabilités ont été découvertes dans Squid. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
+    "date": "25/03/2026 à 14:42",
+    "timestamp": 1774449720164
   }
 ]

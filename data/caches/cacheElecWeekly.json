@@ -1,85 +1,5 @@
 [
   {
-    "title": "Diodes drives release of 1.8V, 2.5Gbps MIPI D-PHY ReDriver for ADAS",
-    "link": "https://www.electronicsweekly.com/news/products/diodes-drives-release-of-1-8v-2-5gbps-mipi-d-phy-redriver-2026-02/",
-    "description": "Diodes is releasing its automotive-compliant PI2MEQX2505Q, a 1.8V, 2.5Gps MIPI D-PHY ReDriver. Aimed at advanced driver-assistance systems (ADAS), or camera monitoring systems, it is a signal integrity device. MIPI D-PHY ReDriver “The device regenerates D-PHY signaling in channels that involve PCB traces, connectors, and cables, providing optimal electrical performance from a CSI-2/DSI source to sink by compensating for frequency loss,” ...",
-    "status": "Posted on 6th February 2026 | Modified on 6th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845580
-  },
-  {
-    "title": "EW BrightSparks 2025 profile: Harry Ford, HyImpulse",
-    "link": "https://www.electronicsweekly.com/news/ew-brightsparks/ew-brightsparks-2025-profile-harry-ford-hyimpulse-2026-02/",
-    "description": "Now in its eighth year of awards, EW BrightSparks sees Electronics Weekly highlight and celebrate some of the brightest and most talented young engineers in the UK today. In the next in our series on the latest EW BrightSparks of 2025, we profile Harry Ford, a Test Bench and GSE Engineer at HyImpulse. Achievements Harry was nominated for the award by ...",
-    "status": "Posted on 6th February 2026 | Modified on 6th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845580
-  },
-  {
-    "title": "Record quarter for Arm",
-    "link": "https://www.electronicsweekly.com/news/business/record-quarter-for-arm-2-2026-02/",
-    "description": "Arm’s Q3 revenue was up 26% YoY at $1.24 billion for its fourth consecutive billion dollar revenue quarter. Royalty revenue grew 27% YoY to $737 million. Licensing revenue grew 25% YoY to $505 million. ‘We are seeing strong momentum for AI across every layer of computing, from the edge to the cloud,’ says Arm, ‘ton align with where this growth ...",
-    "status": "Posted on 6th February 2026 | Modified on 6th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845581
-  },
-  {
-    "title": "100V TMBS rectifier modules deliver forward voltage drop down to 0.83V",
-    "link": "https://www.electronicsweekly.com/news/products/power-supplies/100v-tmbs-rectifier-modules-deliver-forward-voltage-drop-down-to-0-83v-2026-02/",
-    "description": "Vishay Intertechnology is introducing four 100V Gen 2 Trench MOS Barrier Schottky (TMBS) rectifier modules. They are in the compact, fully insulated SOT-227 package. According to Vishay, optimised for power conversion in industrial applications, the devices offer forward voltage drop down to 0.83V to reduce conduction losses. For example, Vishay envisages use in high frequency converters and power supplies in ...",
-    "status": "Posted on 6th February 2026 | Modified on 6th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845582
-  },
-  {
-    "title": "Singapore lab replaces interposer copper with micro LEDs",
-    "link": "https://www.electronicsweekly.com/news/business/singapore-lab-replaces-interposer-copper-with-optical-fibre-2026-02/",
-    "description": "Replacing copper in semiconductor packaging with microLED optical links increases data rates and speed while resolving the issues of heat generation encountered by more traditional designs. Singapore’s NSC (New Silicon Corporation) exhibited its latest project at Asia Photonics Expo 2026. Using silicon nitride waveguides and micro LEDs to connect, for example a GPU and high bandwidth memory results in 32Tbps/mm ...",
-    "status": "Posted on 6th February 2026 | Modified on 7th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845588
-  },
-  {
-    "title": "Kymeta-JDI meta-surface to enable multi-band, multi-orbit satcomns",
-    "link": "https://www.electronicsweekly.com/news/business/kymeta-jdi-meta-surface-to-enable-enabling-multi-band-multi-orbit-satellite-communications-2026-02/",
-    "description": "Kymeta, the mobile satcomms specialist, and Japan Display Inc (JDI) are developing a multi-band metasurface aperture to enable concurrent operation across Ku and Ka-band satellite frequencies. This collaboration aims to  deliver the industry’s first multi-band, metasurface terminal, enabling multi-band, multi-orbit satellite communications. The partnership brings together Kymeta’s expertise in metasurface antenna technologies and JDI’s  capabilities in rigid flat-panel thin film ...",
-    "status": "Posted on 6th February 2026 | Modified on 6th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845588
-  },
-  {
-    "title": "RF GaN on 11% CAGR to hit $2.4bn in 2031",
-    "link": "https://www.electronicsweekly.com/news/business/rf-gan-on-11-cagr-to-hit-2-4bn-in-2031-2026-02/",
-    "description": "RF GaN is on a strong growth trajectory, says Yole, with the  market expected to reach ~$2.4 billion by 2031. Defence is the main growth engine, heading toward ~$1 billion in RF GaN revenues by 2031. The RF GaN value chain is highly compartmentalized, with largely separate U.S., European, and Chinese ecosystems. GaN-on-SiC remains the dominant platform across high-power telecom ...",
-    "status": "Posted on 6th February 2026 | Modified on 6th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845588
-  },
-  {
-    "title": "High-performance isolated gate driver ICs with opto-emulator input",
-    "link": "https://www.electronicsweekly.com/news/business/high-performance-isolated-gate-driver-ics-with-opto-emulator-input-2026-02/",
-    "description": "Infineon has introduced the EiceDRIVER 1ED301xMC12I product family, a series of high-performance isolated gate driver ICs with opto-emulator input. The devices are pin-compatible with existing opto-emulators and optocouplers, offering high common-mode transient immunity (CMTI), a robust output stage, and more precise timing than currently available solutions. This enables engineers to migrate to SiC technology without redesigning opto-based control schemes. The ...",
-    "status": "Posted on 6th February 2026 | Modified on 6th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845589
-  },
-  {
-    "title": "2025 UK connector market up 5%, says ITSA",
-    "link": "https://www.electronicsweekly.com/news/business/2025-uk-connector-market-up-5-says-itsa-2026-02/",
-    "description": "ITSA members reported 2025 UK connector sales up 5% over 2024 with orders and the BtoB flat. Key markets performances: Broadcast down 6%. Mil/Aero up 2% Medical up 12% Test and Measurement down 13% Mass Transport up 57% (This is linked to key rolling stock and infrastructure projects) Smaller markets performances: Automotive up 22% Comms down 7% Data down 4% ...",
-    "status": "Posted on 6th February 2026 | Modified on 6th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845589
-  },
-  {
-    "title": "Murata guide to optimising AI datacentre power delivery networks",
-    "link": "https://www.electronicsweekly.com/news/business/murata-guide-to-optimising-ai-datacentre-power-deliver-networks-2026-02/",
-    "description": "Murata  has launched a technology guide entitled: ‘Optimising Power Delivery Networks for AI Servers in Next-Generation Data Centres.’ The  guide introduces specific power delivery network optimisation solutions for AI servers that enhance power stability and reduce power losses across the data center infrastructure. To download it click: Optimising Power Delivery Networks for AI Servers in Next-Generation Data Centres The guide ...",
-    "status": "Posted on 6th February 2026 | Modified on 6th February 2026",
-    "date": "07/02/2026 à 15:24",
-    "timestamp": 1770477845590
-  },
-  {
     "title": "Chiral raises $12m for WSI",
     "link": "https://www.electronicsweekly.com/news/business/chiral-raises-12m-for-wsi-2026-02/",
     "description": "Chiral, a Swiss nanomaterials specialist, has raised $12 million in seed financing. Investors were Crane Venture Partners, Quantonation. HCVC and Founderful, as well as public funding from Innosuisse. The funding supports Chiral’s mission to make post-silicon computing chips based on nanomaterials manufacturable at wafer scale. Nanomaterials such as carbon nanotube and two-dimensional materials are widely seen as a viable path ...",
@@ -2150,5 +2070,109 @@
     "status": "Posted on 23rd March 2026 | Modified on 23rd March 2026",
     "date": "24/03/2026 à 9:14",
     "timestamp": 1774340081616
+  },
+  {
+    "title": "Open Cosmos space-based IoT service combines sensor data and imagery",
+    "link": "https://www.electronicsweekly.com/news/open-cosmos-space-based-iot-service-combines-sensor-data-and-imagery-2026-03/",
+    "description": "Open Cosmos, the UK satellite manufacturer and operator, has officially unveiled its global space‑based IoT service. It will be combining ground IoT sensor data with satellite imagery. The system, to deliver real‑time intelligence from devices in the field, was announced at SATShow in Washington DC. The service is aimed at both governments and companies. “Our existing Earth observation satellites already ...",
+    "status": "Posted on 24th March 2026 | Modified on 24th March 2026",
+    "date": "24/03/2026 à 12:42",
+    "timestamp": 1774356120855
+  },
+  {
+    "title": "AI aims high – how AI boosts satellite monitoring",
+    "link": "https://www.electronicsweekly.com/news/design/ai-aims-high-how-ai-boosts-satellite-monitoring-2026-03/",
+    "description": "AI is creeping into orbit and being used to predict where emergency services will be needed, accelerating responses compared to traditional satellite monitoring, said Dr Rajan Bedi, CEO and founder of Spacechips. In the latest episode of Electronics Weekly’s CHIIPs podcast, Bedi explains orbit AI machine learning is a focus for the company which designs and develops hardware for satellites ...",
+    "status": "Posted on 24th March 2026 | Modified on 24th March 2026",
+    "date": "24/03/2026 à 13:42",
+    "timestamp": 1774359720606
+  },
+  {
+    "title": "Embedded World Video: How Octopart Discover speeds product development",
+    "link": "https://www.electronicsweekly.com/news/design/embedded-world-video-how-octopart-discover-speeds-product-development-2026-03/",
+    "description": "At Embedded World 2026 we caught up with Don Cantow, General Manager of Altium, as part of our promotional coverage for the event. He shares the advances that Octopart Discover, the latest iteration of Octopart, is bringing to users and the industry. And he also explains how Octopart Discover can accelerate product-to-market time by helping engineers identify complete solutions, not ...",
+    "status": "Posted on 24th March 2026 | Modified on 24th March 2026",
+    "date": "24/03/2026 à 15:42",
+    "timestamp": 1774366920411
+  },
+  {
+    "title": "Embedded World Video: Weebit Nano on why we need ReRAM",
+    "link": "https://www.electronicsweekly.com/news/embedded-world-video-weebit-nano-on-why-we-need-reram-2026-03/",
+    "description": "At Embedded World 2026 we caught up with Coby Hanoch, CEO of Weebit Nano, as part of our promotional coverage for the event. He explains why we need a new kind of NVM (Non-Volatile Memory), which big companies are using, and how it enables new embedded applications in AI, compute in memory and neuromorphic. Thank you to Coby for his ...",
+    "status": "Posted on 24th March 2026 | Modified on 24th March 2026",
+    "date": "24/03/2026 à 15:42",
+    "timestamp": 1774366920411
+  },
+  {
+    "title": "Arm takes on Intel with proprietary server CPU",
+    "link": "https://www.electronicsweekly.com/news/business/arm-takes-on-intel-in-server-cpu-2026-03/",
+    "description": "Arm has designed its  first production silicon proprietary CPU which sits, in the integration hierarchy  between Arm’s  IP portfolio and its Compute Subsystems (CSS) products. The processor, designated Arm AGI CPU,  is targeted at agentic AI infrastructure. Arm says it delivers more than 2x performance per rack compared with x86 platforms. “Today marks the next phase of the Arm compute ...",
+    "status": "Posted on 25th March 2026 | Modified on 25th March 2026",
+    "date": "25/03/2026 à 7:12",
+    "timestamp": 1774422720459
+  },
+  {
+    "title": "Fancy Fab",
+    "link": "https://www.electronicsweekly.com/news/business/fancy-fab-2026-03/",
+    "description": "Elon Musk says his Terafab in Austin will produce  1TW of compute power a year compared to the  current worldwide total  production of 20GW a year. The fab will accomplish this by harnessing, he says, “some very interesting new physics.” “We are going to push the limits of physics in compute and do some wild and crazy things,” he says. ...",
+    "status": "Posted on 25th March 2026 | Modified on 24th March 2026",
+    "date": "25/03/2026 à 7:12",
+    "timestamp": 1774422720460
+  },
+  {
+    "title": "100 PV solar cell manufacturers in China",
+    "link": "https://www.electronicsweekly.com/news/business/100-pv-solar-cell-manufacturers-in-china-2026-03/",
+    "description": "More than 100 companies in China, led by CATL and BYD, are mass producing thin, light-weight perovskite solar cells, reports the Nikkei. Last year, UtmoLight started up what is intended to be a 1GW factory making 1.8 million cells a year with a conversion efficiency  of 17.44%.  Hangzhou Microquanta Semiconductor Technology has been in production for four  years with ...",
+    "status": "Posted on 25th March 2026 | Modified on 24th March 2026",
+    "date": "25/03/2026 à 7:12",
+    "timestamp": 1774422720470
+  },
+  {
+    "title": "Guerrilla moves on satcoms",
+    "link": "https://www.electronicsweekly.com/news/business/guerrilla-moves-on-satcoms-2026-03/",
+    "description": "Guerrilla RF is going for the SatCom market with low-noise small-signal devices through to high-power RF power amplifiers. Guerrilla now has over 100 devices for mission-critical SatCom applications across ground-based and spaceborne infrastructure, Guerrilla RF ICs address both the uplink and downlink paths of satellite communication architectures including: • MUOS Tactical Radios — UHF satellite communications for military manpack and ...",
+    "status": "Posted on 25th March 2026 | Modified on 24th March 2026",
+    "date": "25/03/2026 à 7:12",
+    "timestamp": 1774422720470
+  },
+  {
+    "title": "element14 design challenge",
+    "link": "https://www.electronicsweekly.com/news/business/element14-design-challenge-2026-03/",
+    "description": "element14 has launched its latest design competition, inviting engineers, makers and technology enthusiasts to develop smart industry projects focused on production monitoring, uptime optimisation and product testing. Selected participants will design and build a prototype or test rig using a kit of components from leading suppliers. Entries will be judged on creativity and the imaginative use of component features. The ...",
+    "status": "Posted on 25th March 2026 | Modified on 25th March 2026",
+    "date": "25/03/2026 à 7:12",
+    "timestamp": 1774422720470
+  },
+  {
+    "title": "Sponsored Content – Unlock New Opportunities: YMIN Pin-to-Pin Capacitors as a Second Source to Japanese Brands in European Defense",
+    "link": "https://www.electronicsweekly.com/news/products/sponsored-content-unlock-new-opportunities-ymin-pin-to-pin-capacitors-as-a-second-source-to-japanese-brands-in-european-defense-2026-03/",
+    "description": "In recent years, defense spending across European Union member states and NATO countries has continued to rise, driven by the Russia-Ukraine conflict and increasing regional security concerns. As a result, military modernization programs are accelerating, with strong investment in advanced platforms such as radar systems, counter-UAV technologies, and electronic warfare. At the same time, emerging technologies—including More-Electric Aircraft (MEA), GaN/SiC ...",
+    "status": "Posted on 25th March 2026 | Modified on 25th March 2026",
+    "date": "25/03/2026 à 10:12",
+    "timestamp": 1774433520675
+  },
+  {
+    "title": "RANSemi wins Apeiroon baseband design-in",
+    "link": "https://www.electronicsweekly.com/news/business/ransemi-wins-apeiroon-baseband-design-in-2026-03/",
+    "description": "RANSemi Limited, the British semiconductor innovator pioneering Open RAN baseband SoCcplatforms for 4G and 5G networks, today announced that its RNS802 5G RAN baseband SoC is being used to power mission-critical and tactical wireless systems developed by Apeiroon, a portable communications innovator that deploys complete, operational 5G networks for defence, public safety, and critical industries. Apeiroon’s systems, running on RANsemi, are designed ...",
+    "status": "Posted on 25th March 2026 | Modified on 25th March 2026",
+    "date": "25/03/2026 à 10:12",
+    "timestamp": 1774433520678
+  },
+  {
+    "title": "Embedded World Video: How Octavo SiP accelerates embedded development",
+    "link": "https://www.electronicsweekly.com/news/products/embedded-world-video-how-octavo-sip-accelerates-product-development-2026-03/",
+    "description": "At Embedded World 2026 we caught up with Greg Sheridan, Vice President of Strategy & Product at Octavo Systems, as part of our promotional coverage for the event. He asks: What if your processor, memory, and power were already solved – before you even start your design? In the interview, Greg also explains how System-in-Package (SiP) technology is transforming embedded ...",
+    "status": "Posted on 25th March 2026 | Modified on 25th March 2026",
+    "date": "25/03/2026 à 10:12",
+    "timestamp": 1774433520678
+  },
+  {
+    "title": "DigiKey unlocks Engineering Unlocked video series",
+    "link": "https://www.electronicsweekly.com/news/business/distribution/digikey-unlocks-engineering-unlocked-video-series-2026-03/",
+    "description": "A new video series looking at the future of engineering – dubbed Engineering Unlocked – has been launched by the Thief River Falls-based distributor, DigiKey. The three-episode series, which is supported by Microchip and Molex, considers the future of electronics design. Specifically, explores how new tools, open communities and STEM education will reshape the design process. For example, the impact ...",
+    "status": "Posted on 25th March 2026 | Modified on 25th March 2026",
+    "date": "25/03/2026 à 16:12",
+    "timestamp": 1774455120346
   }
 ]

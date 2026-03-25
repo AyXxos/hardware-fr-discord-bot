@@ -1,117 +1,5 @@
 [
   {
-    "title": "CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk",
-    "link": "https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html",
-    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered  Federal Civilian Executive Branch (FCEB) agencies to strengthen asset lifecycle management for edge network devices and remove those that no longer receive security updates from original equipment manufacturers (OEMs) over the next 12 to 18 months.  The agency said the move is to drive down technical debt and minimize the risk of compromise, as state-sponsored threat actors turn such devices as a preferred access pathway for breaking into target networks.  Edge devices is an umbrella term that encompasses load balancers, firewalls, routers, switches, wireless access points, network security appliances, Internet of Things (IoT) edge devices, software-defined networks, and other physical or virtual networking components that route network traffic and hold privileged access.   \"Persistent cyber threat actors are increasingly exploiting unsupported edge devices -- hardware and software that no longer receiv...",
-    "status": "Feb 06, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832862
-  },
-  {
-    "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
-    "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
-    "description": "Artificial intelligence (AI) company Anthropic revealed  that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript , OpenSC , and CGIF .  Claude Opus 4.6, which was launched  Thursday, comes with improved coding skills, including code review and debugging capabilities, along with enhancements to tasks like financial analyses, research, and document creation.  Stating that the model is \"notably better\" at discovering high-severity vulnerabilities without requiring any task-specific tooling, custom scaffolding, or specialized prompting, Anthropic said it is putting it to use to find and help fix vulnerabilities in open-source software.   \"Opus 4.6 reads and reasons about code the way a human researcher would—looking at past fixes to find similar bugs that weren't addressed, spotting patterns that tend to cause problems, or understanding a piece of...",
-    "status": "Feb 06, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832862
-  },
-  {
-    "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
-    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
-    "description": "This week didn’t produce one big headline. It produced many small signals — the kind that quietly shape what attacks will look like next.  Researchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. Nothing looked dramatic on the surface. That’s the point. Entry is becoming less visible while impact scales later.  Several findings also show how attackers are industrializing their work — shared infrastructure, repeatable playbooks, rented access, and affiliate-style ecosystems. Operations are no longer isolated campaigns. They run more like services.  This edition pulls those fragments together — short, precise updates that show where techniques are maturing, where exposure is widening, and what patterns are forming behind the noise.             Startup espionage expansion  Operation Nomad Leopard Targets Afghanistan  In a sign that the threat actor has moved beyond government targets, th...",
-    "status": "Feb 05, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832863
-  },
-  {
-    "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
-    "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
-    "description": "The elusive Iranian threat group known as Infy  (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout  the regime imposed at the start of January 2026.  \"The threat actor stopped maintaining its C2 servers on January 8 for the first time since we began monitoring their activities,\" Tomer Bar, vice president of security research at SafeBreach, said  in a report shared with The Hacker News.  \"This was the same day a country-wide internet shutdown was imposed by Iranian authorities in response to recent protests, which likely suggests that even government-affiliated cyber units did not have the ability or motivation to carry out malicious activities within Iran.\"  The cybersecurity company said it observed renewed activity on January 26, 2026, as the hacking crew set up new C2 servers, one day before the Iranian gov...",
-    "status": "Feb 05, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832863
-  },
-  {
-    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
-    "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
-    "description": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.  The flaw, tracked as CVE-2026-25049  (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613  (CVSS score: 9.9), another critical defect that was patched by n8n in December 2025.  \"Additional exploits in the expression evaluation of n8n have been identified and patched following CVE-2025-68613,\" n8n's maintainers said  in an advisory released Wednesday.  \"An authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n.\"   The issue affects the following versions -   <1.123.17 (Fixed in 1.123.17)  <2.5.2 (Fixed in 2.5.2)",
-    "status": "Feb 05, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832863
-  },
-  {
-    "title": "Malicious NGINX Configurations Enable Large-Scale Web Traffic Hijacking Campaign",
-    "link": "https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html",
-    "description": "Cybersecurity researchers have disclosed details of an active web traffic hijacking campaign that has targeted NGINX installations and management panels like Baota (BT) in an attempt to route it through the attacker's infrastructure.  Datadog Security Labs said  it observed threat actors associated with the recent React2Shell  ( CVE-2025-55182 , CVSS score: 10.0) exploitation using malicious NGINX configurations to pull off the attack.  \"The malicious configuration intercepts legitimate web traffic between users and websites and routes it through attacker-controlled backend servers,\" security researcher Ryan Simon said. \"The campaign targets Asian TLDs (.in, .id, .pe, .bd, .th), Chinese hosting infrastructure (Baota Panel), and government and educational TLDs (.edu, .gov).\"   The activity involves the use of shell scripts to inject malicious configurations into NGINX, an open-source reverse proxy and load balancer for web traffic management. These \"locatio...",
-    "status": "Feb 05, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832864
-  },
-  {
-    "title": "China-Linked Amaranth-Dragon Exploits WinRAR Flaw in Espionage Campaigns",
-    "link": "https://thehackernews.com/2026/02/china-linked-amaranth-dragon-exploits.html",
-    "description": "Threat actors affiliated with China have been attributed to a fresh set of cyber espionage campaigns targeting government and law enforcement agencies across Southeast Asia throughout 2025.  Check Point Research is tracking the previously undocumented activity cluster under the moniker Amaranth-Dragon , which it said shares links to the APT 41 ecosystem. Targeted countries include Cambodia, Thailand, Laos, Indonesia, Singapore, and the Philippines.  \"Many of the campaigns were timed to coincide with sensitive local political developments, official government decisions, or regional security events,\" the cybersecurity company said  in a report shared with The Hacker News. \"By anchoring malicious activity in familiar, timely contexts, the attackers significantly increased the likelihood that targets would engage with the content.\"  The Israeli firm added that the attacks were \"narrowly focused\" and \"tightly scoped,\" indicating efforts on the part o...",
-    "status": "Feb 04, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832864
-  },
-  {
-    "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
-    "link": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
-    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added  a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities ( KEV ) catalog, flagging it as actively exploited in attacks.  The vulnerability, tracked as CVE-2025-40551  (CVSS score: 9.8), is a untrusted data deserialization vulnerability that could pave the way for remote code execution.  \"SolarWinds Web Help Desk contains a deserialization of untrusted data vulnerability that could lead to remote code execution, which would allow an attacker to run commands on the host machine,\" CISA said. \"This could be exploited without authentication.\"   SolarWinds issued fixes  for the flaw last week, along with CVE-2025-40536 (CVSS score: 8.1), CVE-2025-40537 (CVSS score: 7.5), CVE-2025-40552 (CVSS score: 9.8), CVE-2025-40553 (CVSS score: 9.8), and CVE-2025-40554 (CVSS score: 9.8), in WHD version 2026.1.  There are currently no public reports about ...",
-    "status": "Feb 04, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832865
-  },
-  {
-    "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
-    "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
-    "description": "Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon , an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line Interface (CLI), that could be exploited to execute code and exfiltrate sensitive data.  The critical vulnerability has been codenamed DockerDash  by cybersecurity company Noma Labs. It was addressed by Docker with the release of version 4.50.0  in November 2025.  \"In DockerDash, a single malicious metadata label in a Docker image can be used to compromise your Docker environment through a simple three-stage attack: Gordon AI reads and interprets the malicious instruction, forwards it to the MCP  [Model Context Protocol] Gateway, which then executes it through MCP tools,\" Sasi Levi, security research lead at Noma, said in a report shared with The Hacker News.  \"Every stage happens with zero validation, taking advantage of current agents and MCP Gateway architecture.\"   ...",
-    "status": "Feb 03, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832865
-  },
-  {
-    "title": "Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package",
-    "link": "https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html",
-    "description": "Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular \"@react-native-community/cli\" npm package.  Cybersecurity company VulnCheck said  it first observed exploitation of CVE-2025-11953  (aka Metro4Shell) on December 21, 2025. With a CVSS score of 9.8, the vulnerability allows remote unauthenticated attackers to execute arbitrary operating system commands on the underlying host. Details of the flaw were first documented  by JFrog in November 2025.  Despite more than a month after initial exploitation in the wild, the \"activity has yet to see broad public acknowledgment,\" it added.  In the attack detected against its honeypot network, the threat actors have weaponized the flaw to deliver a Base64-encoded PowerShell script that, once parsed, is configured to perform a series of actions, including Microsoft Defender Antivirus exclusions for the current working directory and the temporary folder  (...",
-    "status": "Feb 03, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832865
-  },
-  {
-    "title": "APT28 Uses Microsoft Office CVE-2026-21509 in Espionage-Focused Malware Attacks",
-    "link": "https://thehackernews.com/2026/02/apt28-uses-microsoft-office-cve-2026.html",
-    "description": "The Russia-linked state-sponsored threat actor known as APT28  (aka UAC-0001) has been attributed to attacks exploiting a newly disclosed security flaw in Microsoft Office as part of a campaign codenamed Operation Neusploit .  Zscaler ThreatLabz said  it observed the hacking group weaponizing the shortcoming on January 29, 2026, in attacks targeting users in Ukraine, Slovakia, and Romania, three days after Microsoft publicly disclosed the existence of the bug.  The vulnerability in question is CVE-2026-21509  (CVSS score: 7.8), a security feature bypass in Microsoft Office that could allow an unauthorized attacker to send a specially crafted Office file and trigger it.  The Microsoft Threat Intelligence Center (MSTIC), Microsoft Security Response Center (MSRC), and Office Product Group Security Team, along with Google Threat Intelligence Group (GTIG), have been credited with discovering and reporting the flaw.  \"Social engineering lures were crafted in both English and localized ...",
-    "status": "Feb 03, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832866
-  },
-  {
-    "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
-    "link": "https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html",
-    "description": "A high-severity security flaw has been disclosed in OpenClaw  (formerly referred to as Clawdbot and Moltbot) that could allow remote code execution (RCE) through a crafted malicious link.  The issue, which is tracked as CVE-2026-25253  (CVSS score: 8.8), has been addressed in version 2026.1.29  released on January 30, 2026. It has been described as a token exfiltration vulnerability that leads to full gateway compromise.  \"The Control UI trusts gatewayUrl from the query string without validation and auto-connects on load, sending the stored gateway token in the WebSocket connect payload,\" OpenClaw's creator and maintainer Peter Steinberger said  in an advisory.   \"Clicking a crafted link or visiting a malicious site can send the token to an attacker-controlled server. The attacker can then connect to the victim's local gateway, modify config (sandbox, tool policies), and invoke privileged actions, achieving 1-click RCE.\"",
-    "status": "Feb 02, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832866
-  },
-  {
-    "title": "⚡ Weekly Recap: Proxy Botnet, Office Zero-Day, MongoDB Ransoms, AI Hijacks & New Threats",
-    "link": "https://thehackernews.com/2026/02/weekly-recap-proxy-botnet-office-zero.html",
-    "description": "Every week brings new discoveries, attacks, and defenses that shape the state of cybersecurity. Some threats are stopped quickly, while others go unseen until they cause real damage.  Sometimes a single update, exploit, or mistake changes how we think about risk and protection. Every incident shows how defenders adapt — and how fast attackers try to stay ahead.  This week’s recap brings you the key moments that matter most, in one place, so you can stay informed and ready for what’s next.  ⚡ Threat of the Week  Google Disrupts IPIDEA Residential Proxy Network  — Google has crippled IPIDEA, a massive residential proxy network consisting of user devices that are being used as the last-mile link in cyberattack chains. According to the tech giant, not only do these networks permit bad actors to conceal their malicious traffic, but they also open up users who enroll their devices to further attacks. Residential IP addresses in the U.S., Canada, and Europe were seen as the most desirable. ...",
-    "status": "Feb 02, 2026",
-    "date": "07/02/2026 à 15:23",
-    "timestamp": 1770477832866
-  },
-  {
-    "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
-    "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
-    "description": "OpenClaw (formerly Moltbot and Clawdbot) has announced  that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader efforts to bolster the security of the agentic ecosystem.  \"All skills published to ClawHub are now scanned using VirusTotal's threat intelligence, including their new Code Insight capability,\" OpenClaw's founder Peter Steinberger, along with Jamieson O'Reilly and Bernardo Quintero said. \"This provides an additional layer of security for the OpenClaw community.\"  The process essentially entails creating a unique SHA-256 hash for every skill and cross checking it against VirusTotal's database for a match. If it's not found, the skill bundle is uploaded to the malware scanning tool for further analysis using VirusTotal Code Insight .  Skills that have a \"benign\" Code Insight verdict are automatically approved by ClawHub, while those marke...",
-    "status": "Feb 08, 2026",
-    "date": "08/02/2026 à 7:54",
-    "timestamp": 1770537262336
-  },
-  {
     "title": "BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA",
     "link": "https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html",
     "description": "BeyondTrust has released updates to address a critical security flaw impacting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could result in remote code execution.  \"BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulnerability,\" the company said  in an advisory released February 6, 2026.  \"By sending specially crafted requests, an unauthenticated remote attacker may be able to execute operating system commands in the context of the site user.\"  The vulnerability, categorized as an operating system command injection , has been assigned the CVE identifier CVE-2026-1731 . It's rated 9.9 on the CVSS scoring system.   BeyondTrust said successful exploitation of the shortcoming could allow an unauthenticated remote attacker to execute operating system commands in the context of the site user, resulting in unautho...",
@@ -822,5 +710,21 @@
     "status": "Mar 23, 2026",
     "date": "24/03/2026 à 9:14",
     "timestamp": 1774340078371
+  },
+  {
+    "title": "TeamPCP Hacks Checkmarx GitHub Actions Using Stolen CI Credentials",
+    "link": "https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html",
+    "description": "Two more GitHub Actions workflows have become the latest to be compromised by credential-stealing malware by a threat actor known as TeamPCP, the cloud-native cybercriminal operation also behind the Trivy supply chain attack .  The workflows, both maintained by the supply chain security company Checkmarx, are listed below -   checkmarx/ast-github-action  checkmarx/kics-github-action   Cloud security company Sysdig said it observed an identical credential stealer as the one used in TeamPCP's operations targeting Aqua Security's Trivy vulnerability scanner and its associated GitHub Actions, about four days after the breach on March 19, 2026. The Try supply chain compromise is being tracked under the CVE identifier CVE-2026-33634  (CVSS score: 9.4).  \"This suggests that the stolen credentials from the Trivy compromise were used to poison additional actions in affected repositories,\" Sysdig said .  The stealer, referred to as \"TeamPCP Cloud stealer,\" is designe...",
+    "status": "Mar 24, 2026",
+    "date": "24/03/2026 à 9:42",
+    "timestamp": 1774345320786
+  },
+  {
+    "title": "The Kill Chain Is Obsolete When Your AI Agent Is the Threat",
+    "link": "https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html",
+    "description": "In September 2025, Anthropic disclosed  that a state-sponsored threat actor used an AI coding agent to execute an autonomous cyber espionage campaign against 30 global targets. The AI handled 80-90% of tactical operations on its own, performing reconnaissance, writing exploit code, and attempting lateral movement at machine speed.  This incident is worrying, but there's a scenario that should concern security teams even more: an attacker who doesn't need to run through the kill chain at all, because they've compromised an AI agent that already lives inside your environment. One that already has the access, the permissions, and a legitimate reason to move across your systems every day.  A Framework Built for Human Threats  The traditional cyber kill chain assumes attackers have to earn every inch of access. It's a model  developed by Lockheed Martin in 2011 to describe how adversaries move from initial compromise to their ultimate objective, and it's shaped how secu...",
+    "status": "Mar 25, 2026",
+    "date": "25/03/2026 à 12:12",
+    "timestamp": 1774440720454
   }
 ]
